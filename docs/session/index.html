@@ -165,6 +165,13 @@ li.item:hover .no{transform:translateX(5px)}
 .copy:hover{color:var(--on-accent);border-color:var(--accent);background:var(--accent)}
 .copy.done{color:var(--on-accent);border-color:var(--accent);background:var(--accent)}
 li.hidden{display:none}
+mark{background:var(--accent-tint);color:inherit;border-radius:2px;padding:0 .08em}
+/* keep jump targets clear of the sticky finder */
+ol.dex{scroll-margin-top:6.5rem}
+ol.dex li.sec{scroll-margin-top:6.5rem}
+/* brief fade when a category switch re-renders the list */
+ol.dex.switching{animation:dexfade .3s ease}
+@keyframes dexfade{from{opacity:.3}to{opacity:1}}
 .noresult{padding-block:3rem;color:var(--text-3);text-align:center;display:none}
 .noresult button{background:none;border:none;color:var(--accent);font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 
@@ -197,6 +204,20 @@ footer{padding-block:0 3rem}
 .titleblock .lbl{display:block;font-size:.6rem;letter-spacing:.12em;color:var(--text-3);text-transform:uppercase;margin-bottom:.15rem}
 .titleblock a{color:var(--text-2)}
 .titleblock .slogan{color:var(--accent)}
+
+/* ── back to top ── */
+.toTop{position:fixed;right:1.25rem;bottom:1.25rem;z-index:6;width:2.6rem;height:2.6rem;border-radius:50%;
+  border:1px solid var(--line);background:var(--canvas-0);color:var(--text-2);font-size:1.05rem;line-height:1;cursor:pointer;
+  box-shadow:0 2px 10px rgba(15,23,42,.08);
+  opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .2s,transform .2s,visibility .2s}
+.toTop.show{opacity:1;visibility:visible;transform:none}
+.toTop:hover{color:var(--on-accent);background:var(--accent);border-color:var(--accent)}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  ol.dex.switching{animation:none}
+  .toTop{transition:none}
+}
 @media (max-width:640px){
   ol.dex li.item{grid-template-columns:1fr;gap:.15rem}
   .no{padding-top:0}
@@ -222,18 +243,7 @@ footer{padding-block:0 3rem}
       </nav>
     </div>
     <div class="masthead">
-      <svg class="mark" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <g class="spout">
-          <rect x="38" y="10" width="10" height="16" rx="5"/>
-          <rect x="55" y="2" width="10" height="24" rx="5"/>
-          <rect x="72" y="10" width="10" height="16" rx="5"/>
-        </g>
-        <path class="body" d="M12 60c0-18 14-30 34-30h28c20 0 34 12 34 30v10c0 16-12 28-28 28H40c-16 0-28-12-28-28z"/>
-        <path class="tail" d="M104 56l16-10v20z"/>
-        <circle class="eye" cx="40" cy="58" r="5"/>
-        <circle class="pupil" cx="41.5" cy="58" r="2.2"/>
-        <path class="belly" d="M28 84c0-5 7-9 16-9s16 4 16 9z"/>
-      </svg>
+      <img class="mark" src="https://beancookie.github.io/awesome-dsh-plugin/logo.png" alt="Awesome DSH Plugin" width="132" height="132">
       <div>
         <h1 translate="no"><span class="h1-sm">Awesome</span><em>DeepSeek Harness</em><span class="h1-sm">(DSH) Plugin</span></h1>
         <p class="tagline">
@@ -263,7 +273,7 @@ footer{padding-block:0 3rem}
       <a class="chip" href="https://beancookie.github.io/awesome-dsh-plugin/">All <small>270</small></a>
       <a class="chip" href="https://beancookie.github.io/awesome-dsh-plugin/ui/">UI Enhancements <small>55</small></a>
       <a class="chip" href="https://beancookie.github.io/awesome-dsh-plugin/theme/">Themes & Appearance <small>4</small></a>
-      <a class="chip active" href="https://beancookie.github.io/awesome-dsh-plugin/session/">Sessions & Messages <small>14</small></a>
+      <a class="chip active" href="https://beancookie.github.io/awesome-dsh-plugin/session/" aria-current="page">Sessions & Messages <small>14</small></a>
       <a class="chip" href="https://beancookie.github.io/awesome-dsh-plugin/memory/">Memory <small>14</small></a>
       <a class="chip" href="https://beancookie.github.io/awesome-dsh-plugin/tools/">Tools & Capabilities <small>69</small></a>
       <a class="chip" href="https://beancookie.github.io/awesome-dsh-plugin/skill/">Skills <small>1</small></a>
@@ -439,12 +449,23 @@ dsh plugin --profile web add github:&lt;owner&gt;/&lt;repo&gt;</pre>
   </div>
 </footer>
 
+<button class="toTop" id="toTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
+
 <script>
 const CAT_IDS = ['ui','theme','session','memory','tools','skill','workflow','notify','model','dev','fun'];
 const urlParams = new URLSearchParams(location.search);
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+
+// Highlight every case-insensitive hit of q; each segment is escaped first.
+function markText(text, q) {
+  const t = String(text ?? '');
+  if (!q) return esc(t);
+  const i = t.toLowerCase().indexOf(q);
+  if (i === -1) return esc(t);
+  return esc(t.slice(0, i)) + '<mark>' + esc(t.slice(i, i + q.length)) + '</mark>' + markText(t.slice(i + q.length), q);
 }
 
 // Data-driven render: rebuild the filters + list from the inline registry JSON.
@@ -459,6 +480,7 @@ function renderRegistry(data) {
 
   const all = document.createElement('button');
   all.className = 'chip active'; all.type = 'button'; all.dataset.cat = 'all';
+  all.setAttribute('aria-pressed', 'true');
   all.innerHTML = `${esc(data.all)} <small>${plugins.length}</small>`;
   filters.appendChild(all);
   for (const id of CAT_IDS) {
@@ -467,6 +489,7 @@ function renderRegistry(data) {
     const c = cats[id] || {};
     const chip = document.createElement('button');
     chip.className = 'chip'; chip.type = 'button'; chip.dataset.cat = id;
+    chip.setAttribute('aria-pressed', 'false');
     chip.innerHTML = `<span class="em">${esc(c.emoji || '')}</span> ${esc(c[data.code])} <small>${n}</small>`;
     filters.appendChild(chip);
   }
@@ -500,15 +523,38 @@ try {
 } catch (err) { /* keep the static fallback list */ }
 
 // filter = category chip × search text; URL reflects state (?cat=&q=)
-const items = [...document.querySelectorAll('#dex li.item')];
-const secs = [...document.querySelectorAll('#dex li.sec')];
+const dex = document.getElementById('dex');
+const filters = document.getElementById('filters');
+const items = [...dex.querySelectorAll('li.item')];
+const secs = [...dex.querySelectorAll('li.sec')];
 const count = document.getElementById('count');
 const noresult = document.getElementById('noresult');
 const total = document.getElementById('total');
+const q = document.getElementById('q');
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 total.textContent = items.length;
+
+// cache raw name/description: matching stays on content (not button labels),
+// and hits can be re-rendered with <mark> highlights
+for (const li of items) {
+  const a = li.querySelector('h3 a');
+  const p = li.querySelector('p');
+  li._a = a; li._p = p;
+  li._name = a ? a.textContent : '';
+  li._desc = p ? p.textContent : '';
+  li._hay = (li._name + ' ' + li._desc).toLowerCase();
+}
+
 let activeCat = urlParams.get('cat') || 'all';
 let query = (urlParams.get('q') || '').toLowerCase();
 
+function setActiveChip() {
+  for (const c of filters.querySelectorAll('.chip')) {
+    const on = c.dataset.cat === activeCat;
+    c.classList.toggle('active', on);
+    if (c.tagName === 'BUTTON') c.setAttribute('aria-pressed', String(on));
+  }
+}
 function syncUrl() {
   const p = new URLSearchParams(location.search);
   activeCat === 'all' ? p.delete('cat') : p.set('cat', activeCat);
@@ -520,44 +566,111 @@ function applyFilter() {
   const perSec = {};
   for (const li of items) {
     const hit = (activeCat === 'all' || li.dataset.cat === activeCat)
-      && (!query || li.textContent.toLowerCase().includes(query));
+      && (!query || li._hay.includes(query));
     li.classList.toggle('hidden', !hit);
-    if (hit) { shown++; perSec[li.dataset.cat] = (perSec[li.dataset.cat] || 0) + 1; }
+    if (hit) {
+      shown++;
+      perSec[li.dataset.cat] = (perSec[li.dataset.cat] || 0) + 1;
+      if (li._p) li._p.innerHTML = markText(li._desc, query);
+      if (li._a) li._a.innerHTML = markText(li._name, query);
+    }
   }
   for (const s of secs) s.classList.toggle('hidden', !perSec[s.dataset.sec]);
   count.textContent = `${shown} / ${items.length}`;
   noresult.style.display = shown ? 'none' : 'block';
   syncUrl();
 }
-const q = document.getElementById('q');
+// brief fade so a category switch reads as a transition, not a snap
+function pulseDex() {
+  if (reducedMotion.matches) return;
+  dex.classList.remove('switching');
+  void dex.offsetWidth; // restart the animation
+  dex.classList.add('switching');
+}
+
 q.value = query;
 q.addEventListener('input', (e) => {
   query = e.target.value.trim().toLowerCase();
   applyFilter();
 });
-document.getElementById('filters').addEventListener('click', (e) => {
+q.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (q.value) { q.value = ''; query = ''; applyFilter(); }
+  else q.blur();
+});
+// "/" focuses search from anywhere on the page
+document.addEventListener('keydown', (e) => {
+  if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+  const t = document.activeElement;
+  if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+  e.preventDefault();
+  q.focus();
+});
+
+filters.addEventListener('click', (e) => {
   const chip = e.target.closest('.chip');
   if (!chip) return;
+  if (chip.tagName === 'A') return; // category pages use real links — let them navigate
+  if (chip.dataset.cat === activeCat) return;
   activeCat = chip.dataset.cat;
-  for (const c of document.querySelectorAll('.chip')) c.classList.toggle('active', c === chip);
+  setActiveChip();
   applyFilter();
+  pulseDex();
+  // keep the active chip in view inside the horizontal strip…
+  chip.scrollIntoView({ block: 'nearest', inline: 'center' });
+  // …and bring the first visible section right under the sticky finder
+  const first = secs.find((s) => !s.classList.contains('hidden'));
+  if (first) first.scrollIntoView({ block: 'start' });
 });
+
 document.getElementById('clearFilter').addEventListener('click', () => {
   activeCat = 'all'; query = ''; q.value = '';
-  for (const c of document.querySelectorAll('.chip')) c.classList.toggle('active', c.dataset.cat === 'all');
+  setActiveChip();
   applyFilter();
 });
-document.getElementById('dex').addEventListener('click', async (e) => {
+
+// robust copy: async clipboard, legacy textarea fallback for non-secure contexts
+async function copyCmd(text) {
+  try { await navigator.clipboard.writeText(text); return true; }
+  catch {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+    document.body.appendChild(ta);
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch {}
+    ta.remove();
+    return ok;
+  }
+}
+dex.addEventListener('click', async (e) => {
   const btn = e.target.closest('.copy');
   if (!btn) return;
-  try { await navigator.clipboard.writeText(btn.dataset.cmd); } catch {}
+  const ok = await copyCmd(btn.dataset.cmd);
   btn.classList.add('done');
   const old = btn.innerHTML;
-  btn.textContent = '✓';
+  btn.textContent = ok ? '✓' : '✗';
   setTimeout(() => { btn.classList.remove('done'); btn.innerHTML = old; }, 1200);
 });
-// restore state from URL on load
-for (const c of document.querySelectorAll('.chip')) c.classList.toggle('active', c.dataset.cat === activeCat);
+
+// back-to-top, shown once the page is scrolled
+const toTop = document.getElementById('toTop');
+let scrollTick = false;
+addEventListener('scroll', () => {
+  if (scrollTick) return;
+  scrollTick = true;
+  requestAnimationFrame(() => {
+    toTop.classList.toggle('show', scrollY > 600);
+    scrollTick = false;
+  });
+}, { passive: true });
+toTop.addEventListener('click', () => {
+  scrollTo({ top: 0, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+});
+
+// restore state from URL on load (without scrolling)
+setActiveChip();
 applyFilter();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7723c30caf6949b6b95780fb3ed9f6ac"}'></script><!-- End Cloudflare Web Analytics -->
