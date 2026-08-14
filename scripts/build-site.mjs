@@ -17,6 +17,11 @@ const ORIGIN = 'https://beancookie.github.io/awesome-dsh-plugin'
 const DATES_FILE = 'data/added-dates.json'
 const NPM_MAP_FILE = 'data/npm-map.json'
 const CAT_IDS = ['ui', 'theme', 'session', 'memory', 'tools', 'skill', 'workflow', 'notify', 'model', 'dev', 'fun']
+const CAT_EMOJI = { ui: '🎨', theme: '🎭', session: '💬', memory: '🧠', tools: '🛠️', skill: '🧩', workflow: '🔁', notify: '🔔', model: '🔌', dev: '🧑‍💻', fun: '🎮' }
+const CAT_NAMES = Object.fromEntries(CAT_IDS.map((id) => [id, {
+  emoji: CAT_EMOJI[id],
+  ...Object.fromEntries(LOCALES.map((l) => [l.code, l.categories[id]])),
+}]))
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
@@ -82,7 +87,7 @@ function buildRows(loc, only) {
   return CAT_IDS.filter((id) => !only || id === only).map((id) => {
     const group = ordered.filter((e) => e.cat === id)
     if (!group.length) return ''
-    const sec = `    <li class="sec" data-sec="${id}"><h2 id="${id}"><a href="${loc.urlPath}${id}/">${loc.categories[id]}</a> <small>${group.length}</small></h2></li>`
+    const sec = `    <li class="sec" data-sec="${id}"><h2 id="${id}"><a href="${loc.urlPath}${id}/"><span class="em">${CAT_EMOJI[id]}</span><span class="names"><span class="zh">${CAT_NAMES[id].zh}</span><span class="en">${CAT_NAMES[id].en}</span></span></a> <small>${group.length}</small></h2></li>`
     const items = group.map((e) => {
       idx++
       const delay = Math.min(idx * 0.02, 0.4).toFixed(2)
@@ -110,7 +115,7 @@ function buildChips(loc) {
     `      <button class="chip active" type="button" data-cat="all">${loc.strings.ALL} <small>${N}</small></button>`,
     ...CAT_IDS.map((id) => {
       const n = ordered.filter((e) => e.cat === id).length
-      return `      <button class="chip" type="button" data-cat="${id}">${loc.categories[id]} <small>${n}</small></button>`
+      return `      <button class="chip" type="button" data-cat="${id}"><span class="em">${CAT_EMOJI[id]}</span> ${loc.categories[id]} <small>${n}</small></button>`
     }),
   ].join('\n')
 }
@@ -140,8 +145,31 @@ function langRedirect(current) {
 
 const master = fs.readFileSync('site/template.html', 'utf8')
 
+// Frontend data source: same roster + install logic as the JSON registry
+// below, but flattened to the current locale so the page re-renders client-side.
+const installCmd = (e) => {
+  const npm = npmMap[e.url]?.npm ?? null
+  return `dsh plugin --profile web add ${npm ?? `github:${e.url.replace('https://github.com/', '')}`}`
+}
+const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stringify({
+  code: loc.code,
+  urlPath: loc.urlPath,
+  copyLabel: loc.COPY_LABEL,
+  copyText: loc.COPY_TEXT,
+  all: loc.strings.ALL,
+  categories: CAT_NAMES,
+  plugins: ordered.map((e) => ({
+    name: e.name,
+    url: e.url,
+    category: e.cat,
+    description: e.descs[loc.code],
+    install: installCmd(e),
+  })),
+}).replace(/</g, '\\u003c')]))
+
 for (const loc of LOCALES) {
   let page = master
+  page = page.replace('__REGISTRY_DATA__', () => inlineByLoc[loc.code])
   page = page.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${jsonld(ORIGIN + loc.urlPath)}</script>`)
   page = page.replace(/(<ol class="dex" id="dex">)[\s\S]*?(<\/ol>)/, `$1\n\n${buildRows(loc)}\n\n  $2`)
   page = page.replace(/(<div class="filters" id="filters">)[\s\S]*?(<\/div><!--\/filters-->)/, `$1\n${buildChips(loc)}\n    $2`)
@@ -156,7 +184,7 @@ for (const loc of LOCALES) {
     .replaceAll('__SEARCH_PH__', loc.SEARCH_PH)
     .replaceAll('__LANG_REDIRECT__', langRedirect(loc))
     .replaceAll('__FEED__', ORIGIN + loc.feed)
-    .replaceAll('href="/logo.svg"', `href="${ORIGIN}/logo.svg"`)
+    .replaceAll('href="/logo.png"', `href="${ORIGIN}/logo.png"`)
   for (const [k, v] of Object.entries(loc.strings)) page = page.replaceAll(`__T_${k}__`, v)
   fs.mkdirSync(loc.out.split('/').slice(0, -1).join('/'), { recursive: true })
   fs.writeFileSync(loc.out, page)
@@ -181,6 +209,7 @@ for (const loc of LOCALES) {
       `<link rel="alternate" hreflang="x-default" href="${ORIGIN}${LOCALES[0].urlPath}${id}/">`,
     ].join('\n')
     let page = master
+    page = page.replace('__REGISTRY_DATA__', '')
     page = page.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${catJsonld(url, id)}</script>`)
     page = page.replace(/(<ol class="dex" id="dex">)[\s\S]*?(<\/ol>)/, `$1\n\n${buildRows(loc, id)}\n\n  $2`)
     page = page.replace(/(<div class="filters" id="filters">)[\s\S]*?(<\/div><!--\/filters-->)/, `$1\n${buildChipLinks(loc, id)}\n    $2`)
@@ -195,7 +224,7 @@ for (const loc of LOCALES) {
       .replaceAll('__SEARCH_PH__', loc.SEARCH_PH)
       .replaceAll('__LANG_REDIRECT__', '')
       .replaceAll('__FEED__', ORIGIN + loc.feed)
-      .replaceAll('href="/logo.svg"', `href="${ORIGIN}/logo.svg"`)
+      .replaceAll('href="/logo.png"', `href="${ORIGIN}/logo.png"`)
     for (const [k, v] of Object.entries(loc.strings)) page = page.replaceAll(`__T_${k}__`, v)
     const outDir = loc.out.replace(/index\.html$/, '') + id
     fs.mkdirSync(outDir, { recursive: true })
@@ -249,7 +278,7 @@ const registry = {
       category: e.cat,
       description: Object.fromEntries(LOCALES.map((l) => [l.code, e.descs[l.code]])),
       npm,
-      install: `dsh plugin --profile web add ${npm ?? `github:${e.url.replace('https://github.com/', '')}`}`,
+      install: installCmd(e),
       added: e.added,
     }
   }),
@@ -278,10 +307,11 @@ ${[...LOCALES.map((l2) => `      <xhtml:link rel="alternate" hreflang="${l2.code
 </urlset>
 `)
 
-// keep the hand-written counts in every README in sync
-const enReadme = fs.readFileSync('README.md', 'utf8').replace(/\*\*\d+\*\* plugins/, `**${N}** plugins`)
-fs.writeFileSync('README.md', enReadme)
-const zhReadme = fs.readFileSync('README.zh.md', 'utf8').replace(/\*\*\d+\*\* 个插件/, `**${N}** 个插件`)
-fs.writeFileSync('README.zh.md', zhReadme)
+// keep the hand-written counts in every README in sync.
+// README.md is the Chinese source; README.zh.md is the English source.
+const zhReadme = fs.readFileSync('README.md', 'utf8').replace(/\*\*\d+\*\* 个插件/, `**${N}** 个插件`)
+fs.writeFileSync('README.md', zhReadme)
+const enReadme = fs.readFileSync('README.zh.md', 'utf8').replace(/\*\*\d+\*\* plugins/, `**${N}** plugins`)
+fs.writeFileSync('README.zh.md', enReadme)
 
 console.log(`site built: ${N} rows × ${LOCALES.length} locales + sitemap, README counts synced`)

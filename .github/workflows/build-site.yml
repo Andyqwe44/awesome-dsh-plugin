@@ -3,7 +3,7 @@ name: Build site from README
 on:
   push:
     branches: [main]
-    paths: ['README.md', 'README.zh.md', 'scripts/build-site.mjs', 'scripts/probe-npm.mjs']
+    paths: ['README.md', 'README.zh.md', 'scripts/build-site.mjs', 'scripts/probe-npm.mjs', 'site/template.html']
   workflow_dispatch:
 
 permissions:
