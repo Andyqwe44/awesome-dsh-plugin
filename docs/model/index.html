@@ -477,7 +477,13 @@ for (const li of items) {
   li._a = a; li._p = p;
   li._name = a ? a.textContent : '';
   li._desc = p ? p.textContent : '';
-  li._hay = (li._name + ' ' + li._desc).toLowerCase();
+  // Index the canonical "owner/repo" path too, so a search matches whether
+  // the README writes the label as "repo" or "owner/repo".
+  const href = a ? a.getAttribute('href') : '';
+  const ownerRepo = href.startsWith('https://github.com/')
+    ? href.slice('https://github.com/'.length).split('/').slice(0, 2).join('/')
+    : '';
+  li._hay = (li._name + ' ' + ownerRepo + ' ' + li._desc).toLowerCase();
 }
 
 let activeCat = urlParams.get('cat') || 'all';
