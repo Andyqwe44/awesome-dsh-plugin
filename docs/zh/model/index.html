@@ -118,8 +118,7 @@ h1 .h1-sm{display:block;font-size:.42em;font-weight:700;letter-spacing:.16em;tex
 .finder input{flex:1;background:none;border:none;outline:none;color:var(--text);font:inherit;font-size:1rem;caret-color:var(--accent);min-width:0}
 .finder input::placeholder{color:var(--text-3)}
 .finder .count{font-family:var(--mono);font-size:.74rem;color:var(--text-3);white-space:nowrap;font-variant-numeric:tabular-nums}
-.filters{display:flex;gap:.45rem;overflow-x:auto;padding-block:0 .75rem;scrollbar-width:none}
-.filters::-webkit-scrollbar{display:none}
+.filters{display:flex;flex-wrap:wrap;gap:.45rem;padding-block:0 .75rem}
 .chip{font-family:var(--mono);font-size:.72rem;color:var(--text-2);background:none;white-space:nowrap;
   border:1px solid var(--text-3);border-radius:4px;padding:.28rem .7rem;cursor:pointer}
 .chip small{color:var(--text-3);font-size:.66rem}
@@ -422,7 +421,6 @@ function renderRegistry(data) {
   filters.appendChild(all);
   for (const id of CAT_IDS) {
     const n = plugins.filter((p) => p.category === id).length;
-    if (!n) continue;
     const c = cats[id] || {};
     const chip = document.createElement('button');
     chip.className = 'chip'; chip.type = 'button'; chip.dataset.cat = id;
@@ -553,9 +551,7 @@ filters.addEventListener('click', (e) => {
   setActiveChip();
   applyFilter();
   pulseDex();
-  // keep the active chip in view inside the horizontal strip…
-  chip.scrollIntoView({ block: 'nearest', inline: 'center' });
-  // …and bring the first visible section right under the sticky finder
+  // bring the first visible section right under the sticky finder
   const first = secs.find((s) => !s.classList.contains('hidden'));
   if (first) first.scrollIntoView({ block: 'start' });
 });
