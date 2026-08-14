@@ -9,6 +9,16 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 - `docs/`（生成的网站）、`data/npm-map.json`、`data/added-dates.json` 都是自动生成的——切勿手动编辑。
 - 插件计数行由构建脚本自动改写（`README.md` 用 `**N** 个插件`、`README.en.md` 用 `**N** plugins`），不要手动改动。
 
+## 目录结构（每个文件夹的作用）
+
+- `site/` — 网站源码：`template.html`（页面骨架，含 CSS 样式与前端交互 JS，用 `__TOKEN__` 占位）与 `locales.mjs`（语言与文案的唯一来源：分类名、标题、界面字符串）。build-site.mjs 据此生成页面。
+- `scripts/` — 构建与探测脚本：`build-site.mjs`（解析两个 README，生成站点、`data/` 产物并同步计数）与 `probe-npm.mjs`（探测各仓库对应的 npm 包，写入缓存；需联网）。
+- `docs/` — 生成的网站（GitHub Pages 部署目录）：`index.html`、各分类页、`plugins.json`、`sitemap.xml`、`feed.xml`、`logo.png`、`badge.svg`。自动生成，切勿手动编辑。
+- `data/` — 自动生成的账本/缓存：`npm-map.json`（repo → npm 包映射）与 `added-dates.json`（插件收录日期）。由脚本维护，切勿手动编辑。
+- `images/` — 源素材：`logo.png`（站点与 README 使用的 logo 源文件）。
+- `.github/` — GitHub 配置：`workflows/build-site.yml`（推送 `main` 时自动构建并提交生成文件）与 `pull_request_template.md`（PR 提交模板）。
+- `.git/` — git 内部元数据，无需改动。
+
 ## 添加插件
 
 每个插件占一行，由 `scripts/build-site.mjs` 中的严格正则解析：

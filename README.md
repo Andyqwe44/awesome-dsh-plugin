@@ -19,10 +19,6 @@
 
 DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent（提供 Web 与 headless 两种形式），底层又是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI、乃至 Agent Loop 本身都是插件。插件既可以扩展官方 Coding Agent，也可以替换其核心部件，甚至组装出完全不同的东西。
 
-本列表收录可通过 `dsh plugin add` 安装的社区插件（均声明了 `dsh.bundle` manifest）。
-
-> 💡 新来的话，先装 [dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin#readme)——之后想要什么插件，直接问 agent 就行：`dsh plugin --profile web add dsh-find-plugin`
-
 **270** 个插件 · 欢迎 [PR](#贡献)
 
 ## 目录
