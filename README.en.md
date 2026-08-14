@@ -19,7 +19,7 @@
 
 DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out its core parts, or assemble something entirely different.
 
-**270** plugins · [PRs welcome](#contributing)
+**271** plugins · [PRs welcome](#contributing)
 
 ## Contents
 
@@ -219,6 +219,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 ### Skills
 
 - [creght-dev/skills](https://github.com/creght-dev/skills) - Skills for building websites on the Creght platform: CLI pull/push sync, page and component conventions, CMS, forms, auth, SEO, publishing and version rollback.
+- [leechen298/Code2Skill](https://github.com/leechen298/Code2Skill) - Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.
 
 ### Workflow & Automation
 
