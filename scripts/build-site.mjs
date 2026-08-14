@@ -112,20 +112,21 @@ function buildRows(loc, only) {
 
 function buildChips(loc) {
   return [
-    `      <button class="chip active" type="button" data-cat="all">${loc.strings.ALL} <small>${N}</small></button>`,
+    `      <button class="chip active" type="button" data-cat="all" aria-pressed="true">${loc.strings.ALL} <small>${N}</small></button>`,
     ...CAT_IDS.map((id) => {
       const n = ordered.filter((e) => e.cat === id).length
-      return `      <button class="chip" type="button" data-cat="${id}"><span class="em">${CAT_EMOJI[id]}</span> ${loc.categories[id]} <small>${n}</small></button>`
+      return `      <button class="chip" type="button" data-cat="${id}" aria-pressed="false"><span class="em">${CAT_EMOJI[id]}</span> ${loc.categories[id]} <small>${n}</small></button>`
     }),
   ].join('\n')
 }
 
 function buildChipLinks(loc, activeId) {
   return [
-    `      <a class="chip${activeId ? '' : ' active'}" href="${ORIGIN}${loc.urlPath}">${loc.strings.ALL} <small>${N}</small></a>`,
+    `      <a class="chip${activeId ? '' : ' active'}" href="${ORIGIN}${loc.urlPath}"${activeId ? '' : ' aria-current="page"'}>${loc.strings.ALL} <small>${N}</small></a>`,
     ...CAT_IDS.map((id) => {
       const n = ordered.filter((e) => e.cat === id).length
-      return `      <a class="chip${id === activeId ? ' active' : ''}" href="${ORIGIN}${loc.urlPath}${id}/">${loc.categories[id]} <small>${n}</small></a>`
+      const on = id === activeId
+      return `      <a class="chip${on ? ' active' : ''}" href="${ORIGIN}${loc.urlPath}${id}/"${on ? ' aria-current="page"' : ''}>${loc.categories[id]} <small>${n}</small></a>`
     }),
   ].join('\n')
 }
@@ -185,6 +186,7 @@ for (const loc of LOCALES) {
     .replaceAll('__LANG_REDIRECT__', langRedirect(loc))
     .replaceAll('__FEED__', ORIGIN + loc.feed)
     .replaceAll('href="/logo.png"', `href="${ORIGIN}/logo.png"`)
+    .replaceAll('src="/logo.png"', `src="${ORIGIN}/logo.png"`)
   for (const [k, v] of Object.entries(loc.strings)) page = page.replaceAll(`__T_${k}__`, v)
   fs.mkdirSync(loc.out.split('/').slice(0, -1).join('/'), { recursive: true })
   fs.writeFileSync(loc.out, page)
@@ -225,6 +227,7 @@ for (const loc of LOCALES) {
       .replaceAll('__LANG_REDIRECT__', '')
       .replaceAll('__FEED__', ORIGIN + loc.feed)
       .replaceAll('href="/logo.png"', `href="${ORIGIN}/logo.png"`)
+      .replaceAll('src="/logo.png"', `src="${ORIGIN}/logo.png"`)
     for (const [k, v] of Object.entries(loc.strings)) page = page.replaceAll(`__T_${k}__`, v)
     const outDir = loc.out.replace(/index\.html$/, '') + id
     fs.mkdirSync(outDir, { recursive: true })
@@ -308,10 +311,10 @@ ${[...LOCALES.map((l2) => `      <xhtml:link rel="alternate" hreflang="${l2.code
 `)
 
 // keep the hand-written counts in every README in sync.
-// README.md is the Chinese source; README.zh.md is the English source.
+// README.md is the Chinese source; README.en.md is the English source.
 const zhReadme = fs.readFileSync('README.md', 'utf8').replace(/\*\*\d+\*\* 个插件/, `**${N}** 个插件`)
 fs.writeFileSync('README.md', zhReadme)
-const enReadme = fs.readFileSync('README.zh.md', 'utf8').replace(/\*\*\d+\*\* plugins/, `**${N}** plugins`)
-fs.writeFileSync('README.zh.md', enReadme)
+const enReadme = fs.readFileSync('README.en.md', 'utf8').replace(/\*\*\d+\*\* plugins/, `**${N}** plugins`)
+fs.writeFileSync('README.en.md', enReadme)
 
 console.log(`site built: ${N} rows × ${LOCALES.length} locales + sitemap, README counts synced`)

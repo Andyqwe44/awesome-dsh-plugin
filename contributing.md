@@ -4,13 +4,13 @@ Thanks for helping grow the list! / 感谢参与！
 
 ## Adding a plugin / 收录插件
 
-Open a PR that adds **one line to each of** `README.md` (English) and `README.zh.md` (中文), under the matching category:
+Open a PR that adds **one line to each of** `README.en.md` (English) and `README.md` (中文), under the matching category:
 
 ```markdown
 - [owner/repo](https://github.com/owner/repo) - One-line description ending with a period.
 ```
 
-在 `README.md` 与 `README.zh.md` 的对应分类下各加一行：
+在 `README.md` 与 `README.en.md` 的对应分类下各加一行：
 
 ```markdown
 - [owner/repo](https://github.com/owner/repo) — 一句话描述，以句号结尾。
