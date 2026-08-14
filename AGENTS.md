@@ -5,7 +5,7 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 ## 内容来源（source of truth）
 
 - `README.md`（中文，GitHub 默认展示）与 `README.en.md`（英文）是唯一需要手动编辑内容的文件。二者必须保持同步：插件集合相同、分类相同、每个插件各占一行。
-- 语言映射：`site/locales.mjs` 中 `en` locale 的 `readme` 指向 `README.en.md`（英文内容），`zh` locale 指向 `README.md`（中文内容）——即 GitHub 门面是中文，站点 `/` 为英文、`/zh/` 为中文。改动时保持这个映射。
+- 语言映射：`site/locales.mjs` 中 `zh` locale 的 `readme` 指向 `README.md`（中文内容）、`en` locale 指向 `README.en.md`（英文内容）——`zh` 是默认 locale（`x-default`），站点 `/` 为中文、`/en/` 为英文。改动时保持这个映射。
 - `docs/`（生成的网站）、`data/npm-map.json`、`data/added-dates.json` 都是自动生成的——切勿手动编辑。
 - 插件计数行由构建脚本自动改写（`README.md` 用 `**N** 个插件`、`README.en.md` 用 `**N** plugins`），不要手动改动。
 
