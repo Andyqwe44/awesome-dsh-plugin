@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-14",
- "count": 270,
+ "count": 271,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2090,6 +2090,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:creght-dev/skills",
+   "added": "2026-08-14"
+  },
+  {
+   "name": "Code2Skill",
+   "owner": "leechen298",
+   "url": "https://github.com/leechen298/Code2Skill",
+   "category": "skill",
+   "description": {
+    "zh": "从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发。",
+    "en": "Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:leechen298/Code2Skill",
    "added": "2026-08-14"
   },
   {
