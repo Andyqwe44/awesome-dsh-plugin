@@ -21,6 +21,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 **270** plugins · [PRs welcome](#contributing)
 
+This project actively supports and acknowledges the [LINUX DO](https://linux.do) community, a welcoming space for tech enthusiasts.
+
 ## Contents
 
 - [Plugins](#plugins)

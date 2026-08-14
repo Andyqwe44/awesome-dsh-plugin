@@ -21,6 +21,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 **270** 个插件 · 欢迎 [PR](#贡献)
 
+本项目积极支持并感谢 [LINUX DO](https://linux.do) 社区——一个欢迎技术爱好者的温馨空间。
+
 ## 目录
 
 - [插件](#插件)
