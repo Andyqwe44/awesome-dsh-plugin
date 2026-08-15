@@ -112,6 +112,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [wsxwj123/dsh-plugins#theme-gallery](https://github.com/wsxwj123/dsh-plugins/tree/main/packages/theme-gallery) - Fifteen curated theme families with complete light and dark palettes that follow the native Light, Dark, and Follow system modes.
 - [dsh-skins](https://github.com/dsh-external/dsh-skins) - Web UI skins.
 - [BeiZi6/dsh-theme-plugin](https://github.com/BeiZi6/dsh-theme-plugin) - Theme studio for the DSH Web GUI: five built-in presets plus fully customizable light/dark palettes (accent, background, foreground, UI and code fonts, translucent sidebar, contrast), hot-swapped instantly and persisted in localStorage.
+- [zhtx2024/dsh-skin-switcher](https://github.com/zhtx2024/dsh-skin-switcher) - Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.
 
 ### Sessions & Messages
 
