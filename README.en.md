@@ -19,7 +19,7 @@
 
 DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out its core parts, or assemble something entirely different.
 
-**280** plugins · [PRs welcome](#contributing)
+**281** plugins · [PRs welcome](#contributing)
 
 This project actively supports and acknowledges the [LINUX DO](https://linux.do) community, a welcoming space for tech enthusiasts.
 
@@ -150,6 +150,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - Model-driven context compression: the model decides when and what to compress.
 
 ### Tools & Capabilities
+- [Gumiho12345/dsh-plugin-net-access](https://github.com/Gumiho12345/dsh-plugin-net-access) - Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows).
 - [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export.
 
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an image to use it.
