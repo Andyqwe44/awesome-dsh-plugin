@@ -41,6 +41,20 @@
     <summary>Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.</summary>
   </entry>
   <entry>
+    <title>flyingtimes/dsh-trajectory-reader</title>
+    <id>https://github.com/flyingtimes/dsh-trajectory-reader</id>
+    <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Trajectory interpretation tab: summarizes each user round — what was wanted and how the assistant fulfilled it (needs/thinking/execution/results) via a rules engine plus optional LLM narrative; files, commands and errors at a glance; user messages stay verbatim.</summary>
+  </entry>
+  <entry>
+    <title>xiehuan123/coding-coach</title>
+    <id>https://github.com/xiehuan123/coding-coach</id>
+    <link href="https://github.com/xiehuan123/coding-coach"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin.</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/dsh-deepread</title>
     <id>https://github.com/xiehuan123/dsh-deepread</id>
     <link href="https://github.com/xiehuan123/dsh-deepread"/>
@@ -53,6 +67,13 @@
     <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Registers @firecrawl/anydoc as an `anydoc` tool for the Agent, converting Word/PPT/Excel/PDF/EPUB and other document formats into GitHub-Flavored Markdown.</summary>
+  </entry>
+  <entry>
+    <title>xmutfyh/dsh-plugin-writing-guard</title>
+    <id>https://github.com/xmutfyh/dsh-plugin-writing-guard</id>
+    <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).</summary>
   </entry>
   <entry>
     <title>dhicoc/dsh-reverse-skill</title>
@@ -193,26 +214,5 @@
     <link href="https://github.com/jiangnanquan/dsh-ux"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Solarized light theme, compact layout, think/tool-chain collapse capsules, and balance, session cost, and usage dashboards for the DSH web UI.</summary>
-  </entry>
-  <entry>
-    <title>a903067276-rgb/dsh-hud</title>
-    <id>https://github.com/a903067276-rgb/dsh-hud</id>
-    <link href="https://github.com/a903067276-rgb/dsh-hud"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>HUD status panel: Git status, MCP servers, skills, model and token usage in a floating side panel.</summary>
-  </entry>
-  <entry>
-    <title>wsxwj123/dsh-plugins#turn-scrubber</title>
-    <id>https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber</id>
-    <link href="https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Compact right-edge turn rail with hover summaries and click-to-jump navigation.</summary>
-  </entry>
-  <entry>
-    <title>Sttrevens/dsh-cost-meter</title>
-    <id>https://github.com/Sttrevens/dsh-cost-meter</id>
-    <link href="https://github.com/Sttrevens/dsh-cost-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Per-turn USD cost badge in the Web UI: session total in the header and per-turn cost in each message footer, with a hover breakdown.</summary>
   </entry>
 </feed>

@@ -327,6 +327,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/flyingtimes/dsh-trajectory-reader": {
+  "npm": "@clarkchan/trajectory-reader",
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/flymysql/dsh-memory": {
   "npm": null,
   "checkedAt": "2026-08-14"
@@ -1035,6 +1039,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/xiehuan123/coding-coach": {
+  "npm": "coding-coach",
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/xiehuan123/dsh-deepread": {
   "npm": null,
   "checkedAt": "2026-08-15"
@@ -1042,6 +1050,10 @@
  "https://github.com/xingyingyuzhui/dsh-updater-ui": {
   "npm": null,
   "checkedAt": "2026-08-14"
+ },
+ "https://github.com/xmutfyh/dsh-plugin-writing-guard": {
+  "npm": "dsh-plugin-writing-guard",
+  "checkedAt": "2026-08-15"
  },
  "https://github.com/Xplore-LAB/dsh-plugin-asmemory": {
   "npm": null,

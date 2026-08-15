@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 280,
+ "count": 283,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1066,6 +1066,19 @@
    "added": "2026-08-14"
   },
   {
+   "name": "dsh-trajectory-reader",
+   "owner": "flyingtimes",
+   "url": "https://github.com/flyingtimes/dsh-trajectory-reader",
+   "category": "session",
+   "description": {
+    "zh": "轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。",
+    "en": "Trajectory interpretation tab: summarizes each user round — what was wanted and how the assistant fulfilled it (needs/thinking/execution/results) via a rules engine plus optional LLM narrative; files, commands and errors at a glance; user messages stay verbatim."
+   },
+   "npm": "@clarkchan/trajectory-reader",
+   "install": "dsh plugin --profile web add @clarkchan/trajectory-reader",
+   "added": "2026-08-15"
+  },
+  {
    "name": "distill",
    "owner": "LoserFox",
    "url": "https://github.com/LoserFox/distill",
@@ -1246,6 +1259,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh",
    "added": "2026-08-14"
+  },
+  {
+   "name": "coding-coach",
+   "owner": "xiehuan123",
+   "url": "https://github.com/xiehuan123/coding-coach",
+   "category": "tools",
+   "description": {
+    "zh": "Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。",
+    "en": "Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin."
+   },
+   "npm": "coding-coach",
+   "install": "dsh plugin --profile web add coding-coach",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-deepread",
@@ -2169,6 +2195,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:ciceroyang/dsh-report-studio",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-plugin-writing-guard",
+   "owner": "xmutfyh",
+   "url": "https://github.com/xmutfyh/dsh-plugin-writing-guard",
+   "category": "tools",
+   "description": {
+    "zh": "论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。",
+    "en": "Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules)."
+   },
+   "npm": "dsh-plugin-writing-guard",
+   "install": "dsh plugin --profile web add dsh-plugin-writing-guard",
+   "added": "2026-08-15"
   },
   {
    "name": "skills",

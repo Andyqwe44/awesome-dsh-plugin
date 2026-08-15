@@ -19,7 +19,7 @@
 
 DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent（提供 Web 与 headless 两种形式），底层又是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI、乃至 Agent Loop 本身都是插件。插件既可以扩展官方 Coding Agent，也可以替换其核心部件，甚至组装出完全不同的东西。
 
-**280** 个插件 · 欢迎 [PR](#贡献)
+**283** 个插件 · 欢迎 [PR](#贡献)
 
 本项目积极支持并感谢 [LINUX DO](https://linux.do) 社区——一个欢迎技术爱好者的温馨空间。
 
@@ -132,6 +132,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [Wine-Red/dsh-prompt-stash](https://github.com/Wine-Red/dsh-prompt-stash) — 本地、按会话隔离的 LIFO 输入暂存：临时收起未完成的输入，之后安全恢复并继续编辑。
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) — 跨 dsh/Codex/Claude Code/pi/OpenCode 会话只读搜索，无索引。
 
+- [flyingtimes/dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) — 轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。
 ### 🧠 记忆
 
 - [LoserFox/distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update。
@@ -150,7 +151,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [Tyan66666/billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) — 模型驱动的上下文压缩：由模型决定何时压缩、压缩什么。
 
 ### 🛠️ 工具与能力
-- [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead 精读助手：五种精读模式（快速 / 深度 / 知识地图 / 费曼读书法 / 全书精读；知识地图输出「观点—证据—数据—关系」与四档置信度，费曼为 11 步闭环 + 间隔复习）、微信公众号链接 / 本地 .txt .md .html .pdf 文件（内置纯 JS PDF 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。
+- [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) — Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。
+- [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead 精读助手：四种精读模式（含「观点—证据—数据—关系」知识地图与四档置信度）、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。
 
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 为纯文本 Agent 提供视觉能力：内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用。
 - [lire1131/dsh-undo-plugin](https://github.com/lire1131/dsh-undo-plugin) — DSH 撤销/回退系统：配置变更自动存档，一键撤销/恢复/回退到任意版本，支持 WebUI 与离线 CLI/GUI 工具（DSH 启动失败也能救）。
@@ -224,6 +226,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [chushixixin/dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) — MCP server 让任意 MCP 客户端驱动 Harness agent。
 - [lxj808624/dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) — 结构化 Git 工具（status/diff/log/branch/stage/commit）+ 破坏性命令安全护栏。
 - [ciceroyang/dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) — 把 DSH 会话一键变成日报/周报/交接文档/文章，附可验证凭据。
+- [xmutfyh/dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) — 论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。
 
 ### 🧩 技能包
 
