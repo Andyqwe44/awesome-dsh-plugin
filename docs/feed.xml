@@ -41,6 +41,20 @@
     <summary>在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。</summary>
   </entry>
   <entry>
+    <title>flyingtimes/dsh-trajectory-reader</title>
+    <id>https://github.com/flyingtimes/dsh-trajectory-reader</id>
+    <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。</summary>
+  </entry>
+  <entry>
+    <title>xiehuan123/coding-coach</title>
+    <id>https://github.com/xiehuan123/coding-coach</id>
+    <link href="https://github.com/xiehuan123/coding-coach"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/dsh-deepread</title>
     <id>https://github.com/xiehuan123/dsh-deepread</id>
     <link href="https://github.com/xiehuan123/dsh-deepread"/>
@@ -53,6 +67,13 @@
     <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>将 @firecrawl/anydoc 作为 anydoc 工具注册给 Agent，把 Word/PPT/Excel/PDF/EPUB 等多种文档格式转换为 GitHub-Flavored Markdown。</summary>
+  </entry>
+  <entry>
+    <title>xmutfyh/dsh-plugin-writing-guard</title>
+    <id>https://github.com/xmutfyh/dsh-plugin-writing-guard</id>
+    <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。</summary>
   </entry>
   <entry>
     <title>dhicoc/dsh-reverse-skill</title>
@@ -193,26 +214,5 @@
     <link href="https://github.com/jiangnanquan/dsh-ux"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Solarized 浅色主题、紧凑布局、思考/工具链折叠胶囊，以及余额、本轮成本与用量看板的 DSH Web 界面增强插件。</summary>
-  </entry>
-  <entry>
-    <title>a903067276-rgb/dsh-hud</title>
-    <id>https://github.com/a903067276-rgb/dsh-hud</id>
-    <link href="https://github.com/a903067276-rgb/dsh-hud"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>HUD 状态面板：Git 状态、MCP 服务器、技能列表、模型与 token 用量，悬浮侧栏一览无余。</summary>
-  </entry>
-  <entry>
-    <title>wsxwj123/dsh-plugins#turn-scrubber</title>
-    <id>https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber</id>
-    <link href="https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>右侧紧凑回合刻度条，悬停显示回合摘要，点击跳转到对应用户回合。</summary>
-  </entry>
-  <entry>
-    <title>Sttrevens/dsh-cost-meter</title>
-    <id>https://github.com/Sttrevens/dsh-cost-meter</id>
-    <link href="https://github.com/Sttrevens/dsh-cost-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Web UI 美元成本徽标：头部显示会话总成本、每条回复结尾显示该轮成本，悬停看分项。</summary>
   </entry>
 </feed>
