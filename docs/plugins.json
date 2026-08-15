@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 272,
+ "count": 274,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -767,6 +767,19 @@
    "added": "2026-08-14"
   },
   {
+   "name": "dsh-opencodego-usage",
+   "owner": "BeiZi6",
+   "url": "https://github.com/BeiZi6/dsh-opencodego-usage",
+   "category": "ui",
+   "description": {
+    "zh": "OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新，API Key 自动读取 DSH 凭据。",
+    "en": "OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:BeiZi6/dsh-opencodego-usage",
+   "added": "2026-08-15"
+  },
+  {
    "name": "dsh-galgame",
    "owner": "Lanxing6480",
    "url": "https://github.com/Lanxing6480/dsh-galgame",
@@ -830,6 +843,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:dsh-external/dsh-skins",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-theme-plugin",
+   "owner": "BeiZi6",
+   "url": "https://github.com/BeiZi6/dsh-theme-plugin",
+   "category": "theme",
+   "description": {
+    "zh": "DSH Web GUI 主题工作室：5 套内置预设 + 完全可自定义的浅/深配色（强调色、背景、前景、UI 与代码字体、半透明侧栏、对比度），即时热切换并持久化到 localStorage。",
+    "en": "Theme studio for the DSH Web GUI: five built-in presets plus fully customizable light/dark palettes (accent, background, foreground, UI and code fonts, translucent sidebar, contrast), hot-swapped instantly and persisted in localStorage."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:BeiZi6/dsh-theme-plugin",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-turn-rewind",

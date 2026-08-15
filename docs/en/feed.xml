@@ -6,11 +6,25 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-15T00:00:00Z</updated>
   <entry>
+    <title>BeiZi6/dsh-opencodego-usage</title>
+    <id>https://github.com/BeiZi6/dsh-opencodego-usage</id>
+    <link href="https://github.com/BeiZi6/dsh-opencodego-usage"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials.</summary>
+  </entry>
+  <entry>
     <title>Lanxing6480/dsh-galgame</title>
     <id>https://github.com/Lanxing6480/dsh-galgame</id>
     <link href="https://github.com/Lanxing6480/dsh-galgame"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>A visual-novel presentation layer for the DSH Web chat view: portrait diffs, streaming thought bubble, typewriter dialogue, and GalGame-style question/approval panels; switch back to the normal chat anytime.</summary>
+  </entry>
+  <entry>
+    <title>BeiZi6/dsh-theme-plugin</title>
+    <id>https://github.com/BeiZi6/dsh-theme-plugin</id>
+    <link href="https://github.com/BeiZi6/dsh-theme-plugin"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Theme studio for the DSH Web GUI: five built-in presets plus fully customizable light/dark palettes (accent, background, foreground, UI and code fonts, translucent sidebar, contrast), hot-swapped instantly and persisted in localStorage.</summary>
   </entry>
   <entry>
     <title>zealot00/dsh-pet</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/dsh-external/dsh-paste-input"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Ctrl+V paste files / drag &amp; drop / picker.</summary>
-  </entry>
-  <entry>
-    <title>bpc-oss/dsh-web-billing</title>
-    <id>https://github.com/bpc-oss/dsh-web-billing</id>
-    <link href="https://github.com/bpc-oss/dsh-web-billing"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>RMB/USD token billing with official-policy pricing and a per-message cost ledger.</summary>
-  </entry>
-  <entry>
-    <title>lqhl/dsh-pi-tui</title>
-    <id>https://github.com/lqhl/dsh-pi-tui</id>
-    <link href="https://github.com/lqhl/dsh-pi-tui"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Differential-rendering TUI front end with streaming markdown and tool cards.</summary>
   </entry>
 </feed>

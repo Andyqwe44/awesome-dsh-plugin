@@ -95,6 +95,14 @@
   "npm": "dsh-find-plugin",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/BeiZi6/dsh-opencodego-usage": {
+  "npm": null,
+  "checkedAt": "2026-08-15"
+ },
+ "https://github.com/BeiZi6/dsh-theme-plugin": {
+  "npm": null,
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/BiBoyang/dsh-eval-harness": {
   "npm": null,
   "checkedAt": "2026-08-14"
