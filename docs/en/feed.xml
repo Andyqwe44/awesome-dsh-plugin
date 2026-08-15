@@ -41,6 +41,13 @@
     <summary>Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.</summary>
   </entry>
   <entry>
+    <title>xiehuan123/dsh-deepread</title>
+    <id>https://github.com/xiehuan123/dsh-deepread</id>
+    <link href="https://github.com/xiehuan123/dsh-deepread"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export.</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/a903067276-rgb/dsh-file-mentions"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Clickable file paths in DSH replies: Codex-style inline open, reveal in file manager, and a mentioned-files chip list at the turn tail.</summary>
-  </entry>
-  <entry>
-    <title>bobcat848/dsh-calculator</title>
-    <id>https://github.com/bobcat848/dsh-calculator</id>
-    <link href="https://github.com/bobcat848/dsh-calculator"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DeepSeek API spend (current session and all sessions) and account balance in the aside panel, with official pricing and peak/off-peak support.</summary>
   </entry>
 </feed>

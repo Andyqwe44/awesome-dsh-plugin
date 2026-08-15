@@ -41,6 +41,13 @@
     <summary>在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。</summary>
   </entry>
   <entry>
+    <title>xiehuan123/dsh-deepread</title>
+    <id>https://github.com/xiehuan123/dsh-deepread</id>
+    <link href="https://github.com/xiehuan123/dsh-deepread"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>DeepRead 精读助手：四种精读模式（含「观点—证据—数据—关系」知识地图与四档置信度）、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/a903067276-rgb/dsh-file-mentions"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DSH 回复中的文件路径可点击：Codex 风格行内打开、文件管理器定位、回合尾部文件 chip 列表。</summary>
-  </entry>
-  <entry>
-    <title>bobcat848/dsh-calculator</title>
-    <id>https://github.com/bobcat848/dsh-calculator</id>
-    <link href="https://github.com/bobcat848/dsh-calculator"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>右侧面板展示 DeepSeek API 费用（当前会话 + 全部会话累计）与账户余额，内置官方计价与峰谷计价支持。</summary>
   </entry>
 </feed>

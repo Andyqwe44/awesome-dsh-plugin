@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 278,
+ "count": 279,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1246,6 +1246,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-deepread",
+   "owner": "xiehuan123",
+   "url": "https://github.com/xiehuan123/dsh-deepread",
+   "category": "tools",
+   "description": {
+    "zh": "DeepRead 精读助手：四种精读模式（含「观点—证据—数据—关系」知识地图与四档置信度）、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。",
+    "en": "DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:xiehuan123/dsh-deepread",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-vision-router",
