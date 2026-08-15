@@ -78,10 +78,10 @@ header{
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
   background-size:26px 26px;
 }
-.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;
+.topline{display:flex;justify-content:space-between;align-items:center;gap:.6rem 1rem;flex-wrap:wrap;
   padding-block:.7rem;border-block-end:1px solid var(--line)}
-.brand{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--text-3)}
-.nav{display:flex;gap:1.4rem;align-items:center;font-size:.85rem}
+.brand{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--text-3);min-width:0}
+.nav{display:flex;gap:1.4rem;align-items:center;font-size:.85rem;margin-left:auto;flex-wrap:wrap}
 .lang-btn{color:var(--text-2);font-family:var(--mono);text-decoration:none}
 .masthead{padding-block:clamp(2.4rem,7vh,4.6rem);display:flex;gap:clamp(1.4rem,4vw,2.6rem);align-items:center;flex-wrap:wrap}
 .mark{flex:none;width:clamp(88px,12vw,132px);height:auto}
@@ -226,6 +226,19 @@ footer{padding-block:0 3rem}
   .titleblock>div{border-right:none;border-bottom:1px solid var(--line)}
   .titleblock>div:last-child{border-bottom:none}
   .masthead{gap:1.2rem}
+  /* top bar: tighter links; nav wraps under the brand instead of overflowing */
+  .nav{gap:.9rem;font-size:.8rem}
+  /* category chips become one horizontally scrollable row (no 4-row stack) */
+  .filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.8rem;
+    scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .filters::-webkit-scrollbar{display:none}
+  .chip{flex:none}
+  /* long unbreakable plugin names must not push the row wider than the screen */
+  .dex h3{overflow-wrap:anywhere}
+  ol.dex li.sec h2{gap:.6rem;padding:.6rem .7rem}
+  ol.dex li.sec h2 .em{font-size:1.3rem}
+  .install pre{font-size:.78rem;padding:.85rem 1rem}
+  .toTop{right:.9rem;bottom:.9rem}
 }
 </style>
 </head>
