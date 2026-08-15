@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 275,
+ "count": 276,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -855,6 +855,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:BeiZi6/dsh-theme-plugin",
+   "added": "2026-08-15"
+  },
+  {
+   "name": "dsh-skin-switcher",
+   "owner": "zhtx2024",
+   "url": "https://github.com/zhtx2024/dsh-skin-switcher",
+   "category": "theme",
+   "description": {
+    "zh": "在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。",
+    "en": "Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look."
+   },
+   "npm": "dsh-skin-switcher",
+   "install": "dsh plugin --profile web add dsh-skin-switcher",
    "added": "2026-08-15"
   },
   {

@@ -27,6 +27,13 @@
     <summary>Theme studio for the DSH Web GUI: five built-in presets plus fully customizable light/dark palettes (accent, background, foreground, UI and code fonts, translucent sidebar, contrast), hot-swapped instantly and persisted in localStorage.</summary>
   </entry>
   <entry>
+    <title>zhtx2024/dsh-skin-switcher</title>
+    <id>https://github.com/zhtx2024/dsh-skin-switcher</id>
+    <link href="https://github.com/zhtx2024/dsh-skin-switcher"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/AKIRACOD/dsh-drag-and-drop"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>File-drag fork: drop documents as removable chips above the composer, send without typing.</summary>
-  </entry>
-  <entry>
-    <title>GooodWei/context-vista</title>
-    <id>https://github.com/GooodWei/context-vista</id>
-    <link href="https://github.com/GooodWei/context-vista"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Right-side floating panel with a live donut chart of context token usage and cost.</summary>
   </entry>
 </feed>
