@@ -48,6 +48,13 @@
     <summary>DeepRead 精读助手：四种精读模式（含「观点—证据—数据—关系」知识地图与四档置信度）、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。</summary>
   </entry>
   <entry>
+    <title>beancookie/dsh-plugin-anydoc</title>
+    <id>https://github.com/beancookie/dsh-plugin-anydoc</id>
+    <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>将 @firecrawl/anydoc 作为 anydoc 工具注册给 Agent，把 Word/PPT/Excel/PDF/EPUB 等多种文档格式转换为 GitHub-Flavored Markdown。</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Sttrevens/dsh-cost-meter"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Web UI 美元成本徽标：头部显示会话总成本、每条回复结尾显示该轮成本，悬停看分项。</summary>
-  </entry>
-  <entry>
-    <title>a903067276-rgb/dsh-file-mentions</title>
-    <id>https://github.com/a903067276-rgb/dsh-file-mentions</id>
-    <link href="https://github.com/a903067276-rgb/dsh-file-mentions"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DSH 回复中的文件路径可点击：Codex 风格行内打开、文件管理器定位、回合尾部文件 chip 列表。</summary>
   </entry>
 </feed>

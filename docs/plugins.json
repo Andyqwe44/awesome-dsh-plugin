@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 279,
+ "count": 280,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1545,6 +1545,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:HuanLinOTO/dsh-plugin-mineru",
    "added": "2026-08-13"
+  },
+  {
+   "name": "dsh-plugin-anydoc",
+   "owner": "beancookie",
+   "url": "https://github.com/beancookie/dsh-plugin-anydoc",
+   "category": "tools",
+   "description": {
+    "zh": "将 @firecrawl/anydoc 作为 anydoc 工具注册给 Agent，把 Word/PPT/Excel/PDF/EPUB 等多种文档格式转换为 GitHub-Flavored Markdown。",
+    "en": "Registers @firecrawl/anydoc as an `anydoc` tool for the Agent, converting Word/PPT/Excel/PDF/EPUB and other document formats into GitHub-Flavored Markdown."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:beancookie/dsh-plugin-anydoc",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-cowork",

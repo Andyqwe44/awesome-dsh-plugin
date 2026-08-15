@@ -95,6 +95,10 @@
   "npm": "dsh-find-plugin",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/beancookie/dsh-plugin-anydoc": {
+  "npm": null,
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/BeiZi6/dsh-opencodego-usage": {
   "npm": null,
   "checkedAt": "2026-08-15"
