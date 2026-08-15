@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 280,
+ "count": 281,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1246,6 +1246,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh",
    "added": "2026-08-14"
+  },
+  {
+   "name": "coding-coach",
+   "owner": "xiehuan123",
+   "url": "https://github.com/xiehuan123/coding-coach",
+   "category": "tools",
+   "description": {
+    "zh": "Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。",
+    "en": "Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin."
+   },
+   "npm": "coding-coach",
+   "install": "dsh plugin --profile web add coding-coach",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-deepread",

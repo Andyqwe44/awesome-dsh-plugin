@@ -41,6 +41,13 @@
     <summary>在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。</summary>
   </entry>
   <entry>
+    <title>xiehuan123/coding-coach</title>
+    <id>https://github.com/xiehuan123/coding-coach</id>
+    <link href="https://github.com/xiehuan123/coding-coach"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/dsh-deepread</title>
     <id>https://github.com/xiehuan123/dsh-deepread</id>
     <link href="https://github.com/xiehuan123/dsh-deepread"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>右侧紧凑回合刻度条，悬停显示回合摘要，点击跳转到对应用户回合。</summary>
-  </entry>
-  <entry>
-    <title>Sttrevens/dsh-cost-meter</title>
-    <id>https://github.com/Sttrevens/dsh-cost-meter</id>
-    <link href="https://github.com/Sttrevens/dsh-cost-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Web UI 美元成本徽标：头部显示会话总成本、每条回复结尾显示该轮成本，悬停看分项。</summary>
   </entry>
 </feed>
