@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 284,
+ "count": 285,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2259,6 +2259,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:dhicoc/dsh-reverse-skill",
+   "added": "2026-08-15"
+  },
+  {
+   "name": "dsh-usage-billing",
+   "owner": "940842546",
+   "url": "https://github.com/940842546/dsh-usage-billing",
+   "category": "workflow",
+   "description": {
+    "zh": "用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。",
+    "en": "Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:940842546/dsh-usage-billing",
    "added": "2026-08-15"
   },
   {

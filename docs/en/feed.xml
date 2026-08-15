@@ -90,6 +90,13 @@
     <summary>Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research.</summary>
   </entry>
   <entry>
+    <title>940842546/dsh-usage-billing</title>
+    <id>https://github.com/940842546/dsh-usage-billing</id>
+    <link href="https://github.com/940842546/dsh-usage-billing"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.</summary>
+  </entry>
+  <entry>
     <title>CH4ACKO3/dsh-harmony</title>
     <id>https://github.com/CH4ACKO3/dsh-harmony</id>
     <link href="https://github.com/CH4ACKO3/dsh-harmony"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/zhu1090093659/dsh-web-ui"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.</summary>
-  </entry>
-  <entry>
-    <title>Starfie1d1272/dsh-builtin-toggles</title>
-    <id>https://github.com/Starfie1d1272/dsh-builtin-toggles</id>
-    <link href="https://github.com/Starfie1d1272/dsh-builtin-toggles"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Adds a built-in plugin catalog to DSH Web with search, status explanations, and safe toggles for audited UI plugins.</summary>
   </entry>
 </feed>

@@ -90,6 +90,13 @@
     <summary>完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。</summary>
   </entry>
   <entry>
+    <title>940842546/dsh-usage-billing</title>
+    <id>https://github.com/940842546/dsh-usage-billing</id>
+    <link href="https://github.com/940842546/dsh-usage-billing"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。</summary>
+  </entry>
+  <entry>
     <title>CH4ACKO3/dsh-harmony</title>
     <id>https://github.com/CH4ACKO3/dsh-harmony</id>
     <link href="https://github.com/CH4ACKO3/dsh-harmony"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/zhu1090093659/dsh-web-ui"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。</summary>
-  </entry>
-  <entry>
-    <title>Starfie1d1272/dsh-builtin-toggles</title>
-    <id>https://github.com/Starfie1d1272/dsh-builtin-toggles</id>
-    <link href="https://github.com/Starfie1d1272/dsh-builtin-toggles"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>为 DSH Web 添加官方内置插件目录、搜索与状态说明，并提供经过审核的安全 UI 插件开关。</summary>
   </entry>
 </feed>
