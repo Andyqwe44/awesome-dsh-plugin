@@ -357,6 +357,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 官方运行时与核心文档。
 - [DeepSeek](https://deepseek.com) - 官方入口。
+- [dsh-ops](https://github.com/MiraculousGarfield/dsh-ops) - dsh 运维工具箱：一键健康检查、配置快照/还原、服务看门狗与事故运维手册（纯本地脚本，无需 AI）。
 
 ## 贡献
 

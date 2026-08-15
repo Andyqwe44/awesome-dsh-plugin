@@ -355,6 +355,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Official runtime and core documentation.
 - [DeepSeek](https://deepseek.com) - Official site.
+- [dsh-ops](https://github.com/MiraculousGarfield/dsh-ops) - Standalone ops toolkit for dsh: one-click health check, config snapshot/restore, service watchdog and an incident runbook (plain PowerShell, no AI needed).
 
 ## Contributing
 
