@@ -41,6 +41,13 @@
     <summary>在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。</summary>
   </entry>
   <entry>
+    <title>flyingtimes/dsh-trajectory-reader</title>
+    <id>https://github.com/flyingtimes/dsh-trajectory-reader</id>
+    <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/coding-coach</title>
     <id>https://github.com/xiehuan123/coding-coach</id>
     <link href="https://github.com/xiehuan123/coding-coach"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/jiangnanquan/dsh-ux"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Solarized 浅色主题、紧凑布局、思考/工具链折叠胶囊，以及余额、本轮成本与用量看板的 DSH Web 界面增强插件。</summary>
-  </entry>
-  <entry>
-    <title>a903067276-rgb/dsh-hud</title>
-    <id>https://github.com/a903067276-rgb/dsh-hud</id>
-    <link href="https://github.com/a903067276-rgb/dsh-hud"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>HUD 状态面板：Git 状态、MCP 服务器、技能列表、模型与 token 用量，悬浮侧栏一览无余。</summary>
   </entry>
 </feed>

@@ -41,6 +41,13 @@
     <summary>Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.</summary>
   </entry>
   <entry>
+    <title>flyingtimes/dsh-trajectory-reader</title>
+    <id>https://github.com/flyingtimes/dsh-trajectory-reader</id>
+    <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Trajectory interpretation tab: summarizes each user round — what was wanted and how the assistant fulfilled it (needs/thinking/execution/results) via a rules engine plus optional LLM narrative; files, commands and errors at a glance; user messages stay verbatim.</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/coding-coach</title>
     <id>https://github.com/xiehuan123/coding-coach</id>
     <link href="https://github.com/xiehuan123/coding-coach"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/jiangnanquan/dsh-ux"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Solarized light theme, compact layout, think/tool-chain collapse capsules, and balance, session cost, and usage dashboards for the DSH web UI.</summary>
-  </entry>
-  <entry>
-    <title>a903067276-rgb/dsh-hud</title>
-    <id>https://github.com/a903067276-rgb/dsh-hud</id>
-    <link href="https://github.com/a903067276-rgb/dsh-hud"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>HUD status panel: Git status, MCP servers, skills, model and token usage in a floating side panel.</summary>
   </entry>
 </feed>

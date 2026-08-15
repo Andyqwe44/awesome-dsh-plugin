@@ -327,6 +327,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/flyingtimes/dsh-trajectory-reader": {
+  "npm": "@clarkchan/trajectory-reader",
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/flymysql/dsh-memory": {
   "npm": null,
   "checkedAt": "2026-08-14"

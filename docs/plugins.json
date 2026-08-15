@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 282,
+ "count": 283,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1064,6 +1064,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:dsh-external/dsh-session-search",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-trajectory-reader",
+   "owner": "flyingtimes",
+   "url": "https://github.com/flyingtimes/dsh-trajectory-reader",
+   "category": "session",
+   "description": {
+    "zh": "轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。",
+    "en": "Trajectory interpretation tab: summarizes each user round — what was wanted and how the assistant fulfilled it (needs/thinking/execution/results) via a rules engine plus optional LLM narrative; files, commands and errors at a glance; user messages stay verbatim."
+   },
+   "npm": "@clarkchan/trajectory-reader",
+   "install": "dsh plugin --profile web add @clarkchan/trajectory-reader",
+   "added": "2026-08-15"
   },
   {
    "name": "distill",
