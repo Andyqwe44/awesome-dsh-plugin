@@ -48,6 +48,13 @@
     <summary>Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research.</summary>
   </entry>
   <entry>
+    <title>CH4ACKO3/dsh-harmony</title>
+    <id>https://github.com/CH4ACKO3/dsh-harmony</id>
+    <link href="https://github.com/CH4ACKO3/dsh-harmony"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload.</summary>
+  </entry>
+  <entry>
     <title>zealot00/dsh-pet</title>
     <id>https://github.com/zealot00/dsh-pet</id>
     <link href="https://github.com/zealot00/dsh-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/bobcat848/dsh-calculator"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DeepSeek API spend (current session and all sessions) and account balance in the aside panel, with official pricing and peak/off-peak support.</summary>
-  </entry>
-  <entry>
-    <title>Jolly-J/dsh-deepseek-billing</title>
-    <id>https://github.com/Jolly-J/dsh-deepseek-billing</id>
-    <link href="https://github.com/Jolly-J/dsh-deepseek-billing"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DeepSeek account balance and per-session cost card in the sidebar foot.</summary>
   </entry>
 </feed>

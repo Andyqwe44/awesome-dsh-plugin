@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 277,
+ "count": 278,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2728,6 +2728,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:omdsh-dev/fabric",
    "added": "2026-08-13"
+  },
+  {
+   "name": "dsh-harmony",
+   "owner": "CH4ACKO3",
+   "url": "https://github.com/CH4ACKO3/dsh-harmony",
+   "category": "dev",
+   "description": {
+    "zh": "让一个 DSH 插件在运行时修改另一个插件的代码，并提供 Patch 排序、冲突检查和热重载。",
+    "en": "Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload."
+   },
+   "npm": "dsh-harmony",
+   "install": "dsh plugin --profile web add dsh-harmony",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-git-identity",
