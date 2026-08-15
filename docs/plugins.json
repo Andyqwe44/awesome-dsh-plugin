@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 281,
+ "count": 282,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2182,6 +2182,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:ciceroyang/dsh-report-studio",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-plugin-writing-guard",
+   "owner": "xmutfyh",
+   "url": "https://github.com/xmutfyh/dsh-plugin-writing-guard",
+   "category": "tools",
+   "description": {
+    "zh": "论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。",
+    "en": "Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules)."
+   },
+   "npm": "dsh-plugin-writing-guard",
+   "install": "dsh plugin --profile web add dsh-plugin-writing-guard",
+   "added": "2026-08-15"
   },
   {
    "name": "skills",

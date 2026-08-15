@@ -62,6 +62,13 @@
     <summary>Registers @firecrawl/anydoc as an `anydoc` tool for the Agent, converting Word/PPT/Excel/PDF/EPUB and other document formats into GitHub-Flavored Markdown.</summary>
   </entry>
   <entry>
+    <title>xmutfyh/dsh-plugin-writing-guard</title>
+    <id>https://github.com/xmutfyh/dsh-plugin-writing-guard</id>
+    <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/a903067276-rgb/dsh-hud"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>HUD status panel: Git status, MCP servers, skills, model and token usage in a floating side panel.</summary>
-  </entry>
-  <entry>
-    <title>wsxwj123/dsh-plugins#turn-scrubber</title>
-    <id>https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber</id>
-    <link href="https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Compact right-edge turn rail with hover summaries and click-to-jump navigation.</summary>
   </entry>
 </feed>
