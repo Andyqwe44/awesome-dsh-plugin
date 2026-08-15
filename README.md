@@ -45,6 +45,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 ## 插件
 
 ### 🎨 UI 增强
+- [pk7j7sqryy-ops/dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) — 会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。
+
 - [zealot00/dsh-pet](https://github.com/zealot00/dsh-pet) — DSH Web UI 桌面宠物：精灵图动画、agent 状态联动、拖拽、闹钟（每天/一次）与番茄钟，皮肤下拉选择 + 预览。
 
 - [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DeepSeek Harness 的终端 UI（TUI）。
