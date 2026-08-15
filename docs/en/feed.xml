@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-15T00:00:00Z</updated>
   <entry>
+    <title>lancecheney/dsh-deepseek-balance</title>
+    <id>https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance</id>
+    <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>A real-time billing badge left of the Session log button: balance, per-conversation spend, peak/off-peak/flat pricing, auto-switching by model/currency/effort, daily official pricing fetch.</summary>
+  </entry>
+  <entry>
     <title>BeiZi6/dsh-opencodego-usage</title>
     <id>https://github.com/BeiZi6/dsh-opencodego-usage</id>
     <link href="https://github.com/BeiZi6/dsh-opencodego-usage"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Jolly-J/dsh-deepseek-billing"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DeepSeek account balance and per-session cost card in the sidebar foot.</summary>
-  </entry>
-  <entry>
-    <title>AKIRACOD/dsh-drag-and-drop</title>
-    <id>https://github.com/AKIRACOD/dsh-drag-and-drop</id>
-    <link href="https://github.com/AKIRACOD/dsh-drag-and-drop"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>File-drag fork: drop documents as removable chips above the composer, send without typing.</summary>
   </entry>
 </feed>

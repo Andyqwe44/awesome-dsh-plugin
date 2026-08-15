@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 276,
+ "count": 277,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -453,6 +453,19 @@
    "npm": "dsh-spend",
    "install": "dsh plugin --profile web add dsh-spend",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-deepseek-balance",
+   "owner": "lancecheney",
+   "url": "https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance",
+   "category": "ui",
+   "description": {
+    "zh": "Session log 按钮左侧的实时计费徽章：余额、每会话消耗、峰谷/平价价格，按模型/货币/思考强度自动切换，每天抓官方定价。",
+    "en": "A real-time billing badge left of the Session log button: balance, per-conversation spend, peak/off-peak/flat pricing, auto-switching by model/currency/effort, daily official pricing fetch."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh-TUI",

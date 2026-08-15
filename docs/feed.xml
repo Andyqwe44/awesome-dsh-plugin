@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-15T00:00:00Z</updated>
   <entry>
+    <title>lancecheney/dsh-deepseek-balance</title>
+    <id>https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance</id>
+    <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Session log 按钮左侧的实时计费徽章：余额、每会话消耗、峰谷/平价价格，按模型/货币/思考强度自动切换，每天抓官方定价。</summary>
+  </entry>
+  <entry>
     <title>BeiZi6/dsh-opencodego-usage</title>
     <id>https://github.com/BeiZi6/dsh-opencodego-usage</id>
     <link href="https://github.com/BeiZi6/dsh-opencodego-usage"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Jolly-J/dsh-deepseek-billing"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>侧边栏底部 DeepSeek 账户余额显示与会话费用估算卡片。</summary>
-  </entry>
-  <entry>
-    <title>AKIRACOD/dsh-drag-and-drop</title>
-    <id>https://github.com/AKIRACOD/dsh-drag-and-drop</id>
-    <link href="https://github.com/AKIRACOD/dsh-drag-and-drop"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>拖放 fork：文档以可删除「文件芯片」挂在输入框上方，不打字也能发送。</summary>
   </entry>
 </feed>
