@@ -32,6 +32,36 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 - 必须在两个 README 的对应分类下各加同一行，否则 `build-site.mjs` 会报 `missing: <url>` 并失败。
 - 分隔符为 ` - `（英文）或 ` — `（中文），解析器两者都接受。
 
+## 整理流程（分类与数量）
+
+### 分类
+
+共 11 个固定分类，中英文名以 `site/locales.mjs`（`categories`）为准：
+
+| id | 中文标题 | 英文标题 |
+|----|----------|----------|
+| ui | UI 增强 | UI Enhancements |
+| theme | 主题与外观 | Themes & Appearance |
+| session | 会话与消息 | Sessions & Messages |
+| memory | 记忆 | Memory |
+| tools | 工具与能力 | Tools & Capabilities |
+| skill | 技能包 | Skills |
+| workflow | 工作流与自动化 | Workflow & Automation |
+| notify | 通知与集成 | Notifications & Integrations |
+| model | 模型与账号接入 | Models & Providers |
+| dev | 开发与运行时 | Development & Runtime |
+| fun | 娱乐 | Just for Fun |
+
+- 按插件核心功能归类：技能包/技能路由 → `skill`，UI/交互 → `ui`，主题 → `theme`，会话/消息 → `session`，记忆 → `memory`，工具/能力 → `tools`，工作流/自动化 → `workflow`，通知/集成 → `notify`，模型/账号 → `model`，开发/运行时 → `dev`，其余娱乐向 → `fun`。
+- 同一插件在两个 README 必须放入对应分类（中文用中文标题、英文用英文标题），否则构建报 `missing: <url>` 失败。
+- 不要新增分类；确需新增时同步更新 `scripts/build-site.mjs` 的 `CAT_IDS` 与 `site/locales.mjs` 的 `categories`。
+
+### 数量
+
+- 总数计数行由 `scripts/build-site.mjs` 自动改写：`README.md` 用 `**N** 个插件`、`README.en.md` 用 `**N** plugins`，切勿手动编辑。
+- 站点里的分类计数、`docs/plugins.json` 的 `count`、JSON-LD 的 `numberOfItems` 均由构建脚本按解析到的条目自动计算，无需维护。
+- 整理完成后依次运行 `node scripts/probe-npm.mjs`（需联网探测 npm 映射）与 `node scripts/build-site.mjs`，确认两个 README 计数与新增/移除插件数一致、`docs/` 重新生成。
+
 ## 构建 / 验证
 
 没有 npm scripts、测试或 lint。需要 Node 22（脚本使用 ESM、`fetch`、顶层 await）：
