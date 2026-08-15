@@ -278,6 +278,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - Feishu notifications on session end / input needed.
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - Smooth TUI via opencode attach.
+- [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) - Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.
 
 ### Models & Providers
 
