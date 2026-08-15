@@ -27,6 +27,13 @@
     <summary>Theme studio for the DSH Web GUI: five built-in presets plus fully customizable light/dark palettes (accent, background, foreground, UI and code fonts, translucent sidebar, contrast), hot-swapped instantly and persisted in localStorage.</summary>
   </entry>
   <entry>
+    <title>dhicoc/dsh-reverse-skill</title>
+    <id>https://github.com/dhicoc/dsh-reverse-skill</id>
+    <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research.</summary>
+  </entry>
+  <entry>
     <title>zealot00/dsh-pet</title>
     <id>https://github.com/zealot00/dsh-pet</id>
     <link href="https://github.com/zealot00/dsh-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/GooodWei/context-vista"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Right-side floating panel with a live donut chart of context token usage and cost.</summary>
-  </entry>
-  <entry>
-    <title>dsh-paste-input</title>
-    <id>https://github.com/dsh-external/dsh-paste-input</id>
-    <link href="https://github.com/dsh-external/dsh-paste-input"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Ctrl+V paste files / drag &amp; drop / picker.</summary>
   </entry>
 </feed>

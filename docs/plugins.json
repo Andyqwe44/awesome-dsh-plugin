@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 274,
+ "count": 275,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2143,6 +2143,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:leechen298/Code2Skill",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-reverse-skill",
+   "owner": "dhicoc",
+   "url": "https://github.com/dhicoc/dsh-reverse-skill",
+   "category": "skill",
+   "description": {
+    "zh": "完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。",
+    "en": "Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:dhicoc/dsh-reverse-skill",
+   "added": "2026-08-15"
   },
   {
    "name": "dsh_workflow",

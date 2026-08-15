@@ -1190,13 +1190,42 @@ function esc(s) {
   return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
-// Highlight every case-insensitive hit of q; each segment is escaped first.
-function markText(text, q) {
+// Highlight every case-insensitive hit of the search tokens; each segment is
+// escaped first. Overlapping token spans are merged so text is never doubled.
+function markText(text, tokens) {
   const t = String(text ?? '');
-  if (!q) return esc(t);
-  const i = t.toLowerCase().indexOf(q);
-  if (i === -1) return esc(t);
-  return esc(t.slice(0, i)) + '<mark>' + esc(t.slice(i, i + q.length)) + '</mark>' + markText(t.slice(i + q.length), q);
+  if (!tokens.length) return esc(t);
+  const lower = t.toLowerCase();
+  const spans = [];
+  for (const tok of tokens) {
+    let i = lower.indexOf(tok);
+    while (i !== -1) {
+      spans.push([i, i + tok.length]);
+      i = lower.indexOf(tok, i + tok.length);
+    }
+  }
+  if (!spans.length) return esc(t);
+  spans.sort((a, b) => a[0] - b[0]);
+  const merged = [spans[0]];
+  for (const s of spans.slice(1)) {
+    const last = merged[merged.length - 1];
+    if (s[0] <= last[1]) last[1] = Math.max(last[1], s[1]);
+    else merged.push(s);
+  }
+  let out = '', pos = 0;
+  for (const [s, e] of merged) {
+    out += esc(t.slice(pos, s)) + '<mark>' + esc(t.slice(s, e)) + '</mark>';
+    pos = e;
+  }
+  out += esc(t.slice(pos));
+  return out;
+}
+
+// Multi-keyword AND matching: every whitespace-separated token must appear
+// in the haystack (substring match per token).
+function hayMatches(hay, query) {
+  if (!query) return true;
+  return query.split(/\s+/).every((tok) => hay.includes(tok));
 }
 
 // Data-driven render: rebuild the filters + list from the inline registry JSON.
@@ -1237,6 +1266,7 @@ function renderRegistry(data) {
       idx++;
       const li = document.createElement('li');
       li.className = 'item'; li.dataset.cat = id;
+      if (p.search) li.dataset.search = p.search;
       li.style.animationDelay = `${Math.min(idx * 0.02, 0.4).toFixed(2)}s`;
       li.innerHTML = `<span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>` +
         `<div><h3><a href="${esc(p.url)}" rel="noopener" translate="no">${esc(p.name)}</a></h3>` +
@@ -1265,20 +1295,23 @@ const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 total.textContent = items.length;
 
 // cache raw name/description: matching stays on content (not button labels),
-// and hits can be re-rendered with <mark> highlights
+// and hits can be re-rendered with <mark> highlights. The search haystack
+// includes descriptions in every locale (built into data-search), so a query
+// matches across zh + en regardless of the current page language.
 for (const li of items) {
   const a = li.querySelector('h3 a');
   const p = li.querySelector('p');
   li._a = a; li._p = p;
   li._name = a ? a.textContent : '';
   li._desc = p ? p.textContent : '';
+  li._search = li.dataset.search || li._desc;
   // Index the canonical "owner/repo" path too, so a search matches whether
   // the README writes the label as "repo" or "owner/repo".
   const href = a ? a.getAttribute('href') : '';
   const ownerRepo = href.startsWith('https://github.com/')
     ? href.slice('https://github.com/'.length).split('/').slice(0, 2).join('/')
     : '';
-  li._hay = (li._name + ' ' + ownerRepo + ' ' + li._desc).toLowerCase();
+  li._hay = (li._name + ' ' + ownerRepo + ' ' + li._search).toLowerCase();
 }
 
 let activeCat = urlParams.get('cat') || 'all';
@@ -1300,15 +1333,16 @@ function syncUrl() {
 function applyFilter() {
   let shown = 0;
   const perSec = {};
+  const tokens = query ? query.split(/\s+/) : [];
   for (const li of items) {
     const hit = (activeCat === 'all' || li.dataset.cat === activeCat)
-      && (!query || li._hay.includes(query));
+      && hayMatches(li._hay, query);
     li.classList.toggle('hidden', !hit);
     if (hit) {
       shown++;
       perSec[li.dataset.cat] = (perSec[li.dataset.cat] || 0) + 1;
-      if (li._p) li._p.innerHTML = markText(li._desc, query);
-      if (li._a) li._a.innerHTML = markText(li._name, query);
+      if (li._p) li._p.innerHTML = markText(li._desc, tokens);
+      if (li._a) li._a.innerHTML = markText(li._name, tokens);
     }
   }
   for (const s of secs) s.classList.toggle('hidden', !perSec[s.dataset.sec]);

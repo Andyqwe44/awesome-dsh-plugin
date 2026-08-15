@@ -27,6 +27,13 @@
     <summary>DSH Web GUI 主题工作室：5 套内置预设 + 完全可自定义的浅/深配色（强调色、背景、前景、UI 与代码字体、半透明侧栏、对比度），即时热切换并持久化到 localStorage。</summary>
   </entry>
   <entry>
+    <title>dhicoc/dsh-reverse-skill</title>
+    <id>https://github.com/dhicoc/dsh-reverse-skill</id>
+    <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。</summary>
+  </entry>
+  <entry>
     <title>zealot00/dsh-pet</title>
     <id>https://github.com/zealot00/dsh-pet</id>
     <link href="https://github.com/zealot00/dsh-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/GooodWei/context-vista"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>右侧悬浮面板，环形图实时展示上下文 token 用量与费用。</summary>
-  </entry>
-  <entry>
-    <title>dsh-paste-input</title>
-    <id>https://github.com/dsh-external/dsh-paste-input</id>
-    <link href="https://github.com/dsh-external/dsh-paste-input"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Ctrl+V 粘贴文件 / 拖拽 / 选择。</summary>
   </entry>
 </feed>

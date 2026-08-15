@@ -97,7 +97,8 @@ function buildRows(loc, only) {
       const cmd = sub
         ? `dsh plugin --profile web add github:${repo}#path:/${sub}`
         : `dsh plugin --profile web add github:${repo}`
-      return `    <li class="item" data-cat="${e.cat}" style="animation-delay:${delay}s">
+      const search = LOCALES.map((l) => e.descs[l.code]).join(' ')
+      return `    <li class="item" data-cat="${e.cat}" data-search="${esc(search)}" style="animation-delay:${delay}s">
       <span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>
       <div>
         <h3><a href="${e.url}" rel="noopener" translate="no">${esc(e.name)}</a></h3>
@@ -164,6 +165,7 @@ const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stri
     url: e.url,
     category: e.cat,
     description: e.descs[loc.code],
+    search: LOCALES.map((l) => e.descs[l.code]).join(' '),
     install: installCmd(e),
   })),
 }).replace(/</g, '\\u003c')]))
