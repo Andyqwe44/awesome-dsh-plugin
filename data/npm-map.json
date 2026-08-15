@@ -615,6 +615,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/lsjspl/dsh-plugin-grok2api-media-tool": {
+  "npm": "dsh-plugin-grok2api-media-tool",
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/Luaphes/dsh-web-attention-badge": {
   "npm": "dsh-web-attention-badge",
   "checkedAt": "2026-08-14"

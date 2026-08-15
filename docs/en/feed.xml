@@ -83,6 +83,13 @@
     <summary>Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).</summary>
   </entry>
   <entry>
+    <title>lsjspl/dsh-plugin-grok2api-media-tool</title>
+    <id>https://github.com/lsjspl/dsh-plugin-grok2api-media-tool</id>
+    <link href="https://github.com/lsjspl/dsh-plugin-grok2api-media-tool"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Gives dsh the ability to generate images and videos through the grok2api API.</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Luaphes/dsh-web-attention-badge"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Attention reminders: frame badge, tab-title count, and a status-colored whale favicon for sessions waiting for input or finished unopened.</summary>
-  </entry>
-  <entry>
-    <title>zhu1090093659/dsh-web-ui</title>
-    <id>https://github.com/zhu1090093659/dsh-web-ui</id>
-    <link href="https://github.com/zhu1090093659/dsh-web-ui"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.</summary>
   </entry>
 </feed>

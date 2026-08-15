@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 285,
+ "count": 286,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2220,6 +2220,19 @@
    },
    "npm": "dsh-plugin-writing-guard",
    "install": "dsh plugin --profile web add dsh-plugin-writing-guard",
+   "added": "2026-08-15"
+  },
+  {
+   "name": "dsh-plugin-grok2api-media-tool",
+   "owner": "lsjspl",
+   "url": "https://github.com/lsjspl/dsh-plugin-grok2api-media-tool",
+   "category": "tools",
+   "description": {
+    "zh": "让 dsh 通过 grok2api 的 API 获得生成图片与视频能力。",
+    "en": "Gives dsh the ability to generate images and videos through the grok2api API."
+   },
+   "npm": "dsh-plugin-grok2api-media-tool",
+   "install": "dsh plugin --profile web add dsh-plugin-grok2api-media-tool",
    "added": "2026-08-15"
   },
   {

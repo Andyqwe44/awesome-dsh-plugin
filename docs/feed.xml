@@ -83,6 +83,13 @@
     <summary>论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。</summary>
   </entry>
   <entry>
+    <title>lsjspl/dsh-plugin-grok2api-media-tool</title>
+    <id>https://github.com/lsjspl/dsh-plugin-grok2api-media-tool</id>
+    <link href="https://github.com/lsjspl/dsh-plugin-grok2api-media-tool"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>让 dsh 通过 grok2api 的 API 获得生成图片与视频能力。</summary>
+  </entry>
+  <entry>
     <title>dhicoc/dsh-reverse-skill</title>
     <id>https://github.com/dhicoc/dsh-reverse-skill</id>
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Luaphes/dsh-web-attention-badge"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>会话需要你时三处同时亮起：角标、标签页标题计数、按状态换色的鲸鱼 favicon。</summary>
-  </entry>
-  <entry>
-    <title>zhu1090093659/dsh-web-ui</title>
-    <id>https://github.com/zhu1090093659/dsh-web-ui</id>
-    <link href="https://github.com/zhu1090093659/dsh-web-ui"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。</summary>
   </entry>
 </feed>
