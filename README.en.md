@@ -151,6 +151,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - Model-driven context compression: the model decides when and what to compress.
 
 ### Tools & Capabilities
+- [Gumiho12345/dsh-plugin-net-access](https://github.com/Gumiho12345/dsh-plugin-net-access) - Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows).
 - [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) — Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin.
 - [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export.
 
