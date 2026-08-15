@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 286,
+ "count": 287,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -51,6 +51,19 @@
   }
  },
  "plugins": [
+  {
+   "name": "dsh-token-pet",
+   "owner": "pk7j7sqryy-ops",
+   "url": "https://github.com/pk7j7sqryy-ops/dsh-token-pet",
+   "category": "ui",
+   "description": {
+    "zh": "会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。",
+    "en": "Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:pk7j7sqryy-ops/dsh-token-pet",
+   "added": "2026-08-15"
+  },
   {
    "name": "dsh-pet",
    "owner": "zealot00",

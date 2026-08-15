@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-15T00:00:00Z</updated>
   <entry>
+    <title>pk7j7sqryy-ops/dsh-token-pet</title>
+    <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
+    <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。</summary>
+  </entry>
+  <entry>
     <title>lancecheney/dsh-deepseek-balance</title>
     <id>https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance</id>
     <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Meredith2328/dsh-sticky-note"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>编辑框工具栏便签，随手记点子和 TODO，自动保存为 Markdown，一键发送到对话。</summary>
-  </entry>
-  <entry>
-    <title>Luaphes/dsh-web-attention-badge</title>
-    <id>https://github.com/Luaphes/dsh-web-attention-badge</id>
-    <link href="https://github.com/Luaphes/dsh-web-attention-badge"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>会话需要你时三处同时亮起：角标、标签页标题计数、按状态换色的鲸鱼 favicon。</summary>
   </entry>
 </feed>

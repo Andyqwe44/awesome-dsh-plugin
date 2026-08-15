@@ -883,6 +883,10 @@
   "npm": "@picgo/dsh-plugin",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/pk7j7sqryy-ops/dsh-token-pet": {
+  "npm": null,
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/qyw233/dsh-deeplink": {
   "npm": null,
   "checkedAt": "2026-08-14"

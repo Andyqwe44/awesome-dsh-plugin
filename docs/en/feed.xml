@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-15T00:00:00Z</updated>
   <entry>
+    <title>pk7j7sqryy-ops/dsh-token-pet</title>
+    <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
+    <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts.</summary>
+  </entry>
+  <entry>
     <title>lancecheney/dsh-deepseek-balance</title>
     <id>https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance</id>
     <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Meredith2328/dsh-sticky-note"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Quick sticky notes on the composer toolbar: jot ideas or TODOs, auto-saved as Markdown, one click to send into the chat.</summary>
-  </entry>
-  <entry>
-    <title>Luaphes/dsh-web-attention-badge</title>
-    <id>https://github.com/Luaphes/dsh-web-attention-badge</id>
-    <link href="https://github.com/Luaphes/dsh-web-attention-badge"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Attention reminders: frame badge, tab-title count, and a status-colored whale favicon for sessions waiting for input or finished unopened.</summary>
   </entry>
 </feed>
