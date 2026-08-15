@@ -48,6 +48,13 @@
     <summary>Trajectory interpretation tab: summarizes each user round — what was wanted and how the assistant fulfilled it (needs/thinking/execution/results) via a rules engine plus optional LLM narrative; files, commands and errors at a glance; user messages stay verbatim.</summary>
   </entry>
   <entry>
+    <title>Gumiho12345/dsh-plugin-net-access</title>
+    <id>https://github.com/Gumiho12345/dsh-plugin-net-access</id>
+    <link href="https://github.com/Gumiho12345/dsh-plugin-net-access"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows).</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/coding-coach</title>
     <id>https://github.com/xiehuan123/coding-coach</id>
     <link href="https://github.com/xiehuan123/coding-coach"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Starfie1d1272/dsh-builtin-toggles"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Adds a built-in plugin catalog to DSH Web with search, status explanations, and safe toggles for audited UI plugins.</summary>
-  </entry>
-  <entry>
-    <title>jiangnanquan/dsh-ux</title>
-    <id>https://github.com/jiangnanquan/dsh-ux</id>
-    <link href="https://github.com/jiangnanquan/dsh-ux"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Solarized light theme, compact layout, think/tool-chain collapse capsules, and balance, session cost, and usage dashboards for the DSH web UI.</summary>
   </entry>
 </feed>

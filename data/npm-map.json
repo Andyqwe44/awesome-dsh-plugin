@@ -375,6 +375,10 @@
   "npm": "context-vista",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/Gumiho12345/dsh-plugin-net-access": {
+  "npm": null,
+  "checkedAt": "2026-08-15"
+ },
  "https://github.com/Han-1413141/dsh-cost-meter": {
   "npm": null,
   "checkedAt": "2026-08-14"

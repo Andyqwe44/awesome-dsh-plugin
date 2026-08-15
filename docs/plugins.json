@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-15",
- "count": 283,
+ "count": 284,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1259,6 +1259,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-plugin-net-access",
+   "owner": "Gumiho12345",
+   "url": "https://github.com/Gumiho12345/dsh-plugin-net-access",
+   "category": "tools",
+   "description": {
+    "zh": "DSH 的 net-access 权限模式：文件写保护不变，沙箱内 curl.exe 可用 HTTPS（Windows）。",
+    "en": "Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows)."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:Gumiho12345/dsh-plugin-net-access",
+   "added": "2026-08-15"
   },
   {
    "name": "coding-coach",

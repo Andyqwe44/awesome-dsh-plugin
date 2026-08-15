@@ -48,6 +48,13 @@
     <summary>轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。</summary>
   </entry>
   <entry>
+    <title>Gumiho12345/dsh-plugin-net-access</title>
+    <id>https://github.com/Gumiho12345/dsh-plugin-net-access</id>
+    <link href="https://github.com/Gumiho12345/dsh-plugin-net-access"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>DSH 的 net-access 权限模式：文件写保护不变，沙箱内 curl.exe 可用 HTTPS（Windows）。</summary>
+  </entry>
+  <entry>
     <title>xiehuan123/coding-coach</title>
     <id>https://github.com/xiehuan123/coding-coach</id>
     <link href="https://github.com/xiehuan123/coding-coach"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Starfie1d1272/dsh-builtin-toggles"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>为 DSH Web 添加官方内置插件目录、搜索与状态说明，并提供经过审核的安全 UI 插件开关。</summary>
-  </entry>
-  <entry>
-    <title>jiangnanquan/dsh-ux</title>
-    <id>https://github.com/jiangnanquan/dsh-ux</id>
-    <link href="https://github.com/jiangnanquan/dsh-ux"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Solarized 浅色主题、紧凑布局、思考/工具链折叠胶囊，以及余额、本轮成本与用量看板的 DSH Web 界面增强插件。</summary>
   </entry>
 </feed>
