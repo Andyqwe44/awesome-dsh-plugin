@@ -282,6 +282,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 ### Development & Runtime
 
 - [omdsh-dev/fabric](https://github.com/omdsh-dev/fabric) - An MC-Fabric-style hook processor.
+- [CH4ACKO3/dsh-harmony](https://github.com/CH4ACKO3/dsh-harmony) - Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload.
 - [LoserFox/dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) - Pin Git commits to the environment's own author identity; env-var injection overrides all `git config` settings.
 - [Zhenyu98/dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - Context injection audit: token costs of instruction chains / skill catalogs / tool schemas, duplicate and conflict detection.
 - [ICCuse/dsh-pain-point-check](https://github.com/ICCuse/dsh-pain-point-check) - Enforced pain-point gate: after two non-converged experiments it injects the three questions, denies non-investigative tool calls until answered, and blocks same-direction retries.

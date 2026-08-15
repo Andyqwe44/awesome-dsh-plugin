@@ -282,6 +282,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 ### 🧑‍💻 开发与运行时
 
 - [omdsh-dev/fabric](https://github.com/omdsh-dev/fabric) — 类似 MC Fabric 的 hook 处理器。
+- [CH4ACKO3/dsh-harmony](https://github.com/CH4ACKO3/dsh-harmony) — 让一个 DSH 插件在运行时修改另一个插件的代码，并提供 Patch 排序、冲突检查和热重载。
 - [LoserFox/dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) — git 提交固定使用环境自身作者身份，环境变量注入压过一切 `git config` 设置。
 - [Zhenyu98/dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复与冲突。
 - [omdsh-dev/dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — 插件健康检查：扫描清单协议/patch 格式/构建陷阱，零依赖只读。
