@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
-  <updated>2026-08-14T00:00:00Z</updated>
+  <updated>2026-08-15T00:00:00Z</updated>
+  <entry>
+    <title>Lanxing6480/dsh-galgame</title>
+    <id>https://github.com/Lanxing6480/dsh-galgame</id>
+    <link href="https://github.com/Lanxing6480/dsh-galgame"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>DSH Web 聊天界面 GalGame 演出层：立绘差分、流式思考气泡、打字机对话框与 GalGame 式提问/审批选项框，可随时切回普通聊天。</summary>
+  </entry>
   <entry>
     <title>zealot00/dsh-pet</title>
     <id>https://github.com/zealot00/dsh-pet</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lqhl/dsh-pi-tui"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>差分渲染 TUI 前端：流式 Markdown 与工具卡片。</summary>
-  </entry>
-  <entry>
-    <title>dsh-web-panel</title>
-    <id>https://github.com/dsh-external/dsh-web-panel</id>
-    <link href="https://github.com/dsh-external/dsh-web-panel"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>内嵌终端 dock + Git Review + 文件视图。</summary>
   </entry>
 </feed>

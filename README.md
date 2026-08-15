@@ -105,6 +105,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [Simon314620/dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) — 轮次索引侧边栏，滚动时自动高亮当前轮次。
 - [MysaDC/dsh-plugin-description](https://github.com/MysaDC/dsh-plugin-description) — 为 Web 设置页插件卡片补上中英文功能说明。
 - [BeiZi6/dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) — OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新，API Key 自动读取 DSH 凭据。
+- [Lanxing6480/dsh-galgame](https://github.com/Lanxing6480/dsh-galgame) — DSH Web 聊天界面 GalGame 演出层：立绘差分、流式思考气泡、打字机对话框与 GalGame 式提问/审批选项框，可随时切回普通聊天。
 
 ### 🎭 主题与外观
 
@@ -359,6 +360,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 官方运行时与核心文档。
 - [DeepSeek](https://deepseek.com) - 官方入口。
+- [dsh-ops](https://github.com/MiraculousGarfield/dsh-ops) - dsh 运维工具箱：一键健康检查、配置快照/还原、服务看门狗与事故运维手册（纯本地脚本，无需 AI）。
 
 ## 贡献
 

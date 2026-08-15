@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/en/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/en/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
-  <updated>2026-08-14T00:00:00Z</updated>
+  <updated>2026-08-15T00:00:00Z</updated>
+  <entry>
+    <title>Lanxing6480/dsh-galgame</title>
+    <id>https://github.com/Lanxing6480/dsh-galgame</id>
+    <link href="https://github.com/Lanxing6480/dsh-galgame"/>
+    <updated>2026-08-15T00:00:00Z</updated>
+    <summary>A visual-novel presentation layer for the DSH Web chat view: portrait diffs, streaming thought bubble, typewriter dialogue, and GalGame-style question/approval panels; switch back to the normal chat anytime.</summary>
+  </entry>
   <entry>
     <title>zealot00/dsh-pet</title>
     <id>https://github.com/zealot00/dsh-pet</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lqhl/dsh-pi-tui"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Differential-rendering TUI front end with streaming markdown and tool cards.</summary>
-  </entry>
-  <entry>
-    <title>dsh-web-panel</title>
-    <id>https://github.com/dsh-external/dsh-web-panel</id>
-    <link href="https://github.com/dsh-external/dsh-web-panel"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Embedded terminal dock + Git review + file view.</summary>
   </entry>
 </feed>

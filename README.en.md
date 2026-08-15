@@ -103,6 +103,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) - Turn-index sidebar with scroll-spy highlighting.
 - [dsh-plugin-description](https://github.com/MysaDC/dsh-plugin-description) - Bilingual descriptions on every plugin card in the Web Settings plugin list.
 - [BeiZi6/dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials.
+- [Lanxing6480/dsh-galgame](https://github.com/Lanxing6480/dsh-galgame) - A visual-novel presentation layer for the DSH Web chat view: portrait diffs, streaming thought bubble, typewriter dialogue, and GalGame-style question/approval panels; switch back to the normal chat anytime.
 
 ### Themes & Appearance
 
@@ -357,6 +358,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Official runtime and core documentation.
 - [DeepSeek](https://deepseek.com) - Official site.
+- [dsh-ops](https://github.com/MiraculousGarfield/dsh-ops) - Standalone ops toolkit for dsh: one-click health check, config snapshot/restore, service watchdog and an incident runbook (plain PowerShell, no AI needed).
 
 ## Contributing
 
