@@ -232,6 +232,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DSH session into daily/weekly/handoff/article reports with verifiable receipts.
 - [xmutfyh/dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) - Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).
 - [lsjspl/dsh-plugin-grok2api-media-tool](https://github.com/lsjspl/dsh-plugin-grok2api-media-tool) - Gives dsh the ability to generate images and videos through the grok2api API.
+- [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis.
 
 ### Skills
 
@@ -346,6 +347,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - Offline-tolerant registry that discovers and deduplicates DSH plugins from lists, topics and npm.
 - [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - Delete sessions from a running web runtime without a restart.
 - [dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) - One-click portable Windows launcher with CN mirror fallback.
+- [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
 
 ### Just for Fun
 

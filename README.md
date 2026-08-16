@@ -232,6 +232,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [ciceroyang/dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) — 把 DSH 会话一键变成日报/周报/交接文档/文章，附可验证凭据。
 - [xmutfyh/dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) — 论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。
 - [lsjspl/dsh-plugin-grok2api-media-tool](https://github.com/lsjspl/dsh-plugin-grok2api-media-tool) — 让 dsh 通过 grok2api 的 API 获得生成图片与视频能力。
+- [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) — 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 
 ### 🧩 技能包
 
@@ -346,6 +347,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [Jesse-njx/dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) — 离线容错的插件注册表，聚合并去重各类来源的 DSH 插件。
 - [fountunt/dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) — 无需重启即可删除运行中 Web 运行时里的会话。
 - [15828148/dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) — Windows 一键便携启动器，国内镜像回退。
+- [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) — Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
 
 ### 🎮 娱乐
 
