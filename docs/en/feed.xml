@@ -6,18 +6,18 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-16T00:00:00Z</updated>
   <entry>
-    <title>bowenliang123/dsh-context</title>
-    <id>https://github.com/bowenliang123/dsh-context</id>
-    <link href="https://github.com/bowenliang123/dsh-context"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
-  </entry>
-  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Message-index rail at the conversation's right edge: one brand-colored dot per user message, hover to preview, click to jump, auto-loads older history; pure plugin with no host patching.</summary>
+  </entry>
+  <entry>
+    <title>bowenliang123/dsh-context</title>
+    <id>https://github.com/bowenliang123/dsh-context</id>
+    <link href="https://github.com/bowenliang123/dsh-context"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
   </entry>
   <entry>
     <title>futongxu9-maker/dsh-shared-memory</title>
