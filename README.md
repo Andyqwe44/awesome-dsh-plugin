@@ -24,9 +24,11 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 本项目积极支持并感谢 [LINUX DO](https://linux.do) 社区——一个欢迎技术爱好者的温馨空间。
 
 <p align="center">
-  <b>🔧 插件管理工具</b>：<a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a> —— 在会话内检索并安装本精选列表的插件（<code>search_dsh_plugins</code> / <code>install_dsh_plugin</code> 工具 + Web 设置页「插件市场」面板）。
-  <br>
-  推荐使用配套的插件管理工具插件来简化安装过程。
+  <b>🔧 插件管理工具 · <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a></b><br>
+  在会话内检索并安装本精选列表的插件（<code>search_dsh_plugins</code> / <code>install_dsh_plugin</code> 工具 + Web 设置页「插件市场」面板）。
+</p>
+<p align="center">
+  <small>推荐使用配套的插件管理工具插件来简化安装过程。</small>
 </p>
 
 <details>
