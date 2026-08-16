@@ -13,6 +13,27 @@
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
   </entry>
   <entry>
+    <title>futongxu9-maker/dsh-msgrail</title>
+    <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
+    <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Message-index rail at the conversation's right edge: one brand-colored dot per user message, hover to preview, click to jump, auto-loads older history; pure plugin with no host patching.</summary>
+  </entry>
+  <entry>
+    <title>futongxu9-maker/dsh-shared-memory</title>
+    <id>https://github.com/futongxu9-maker/dsh-shared-memory</id>
+    <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).</summary>
+  </entry>
+  <entry>
+    <title>futongxu9-maker/dsh-path-reveal</title>
+    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
+    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Click any absolute Windows path in DSH messages to reveal it in Explorer (select the file or open the folder).</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-llm-inspector</title>
     <id>https://github.com/cdxiaodong/dsh-llm-inspector</id>
     <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
@@ -193,26 +214,5 @@
     <link href="https://github.com/v587d/dsh-opencode-go-usage"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>OpenCode Go subscription usage (rolling/weekly/monthly windows with reset countdowns) in the composer dock, with a built-in credential editor.</summary>
-  </entry>
-  <entry>
-    <title>Han-1413141/dsh-cost-meter</title>
-    <id>https://github.com/Han-1413141/dsh-cost-meter</id>
-    <link href="https://github.com/Han-1413141/dsh-cost-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Per-session and daily API cost, budget with usage %, official balance, history dashboard, and one-click official price sync with peak/off-peak pricing.</summary>
-  </entry>
-  <entry>
-    <title>fishxcode/dsh-plugin-deepseek-balance</title>
-    <id>https://github.com/fishxcode/dsh-plugin-deepseek-balance</id>
-    <link href="https://github.com/fishxcode/dsh-plugin-deepseek-balance"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DeepSeek API balance, balance trend, and daily usage charts in DSH Web settings.</summary>
-  </entry>
-  <entry>
-    <title>Sev7een/ds-api-usage</title>
-    <id>https://github.com/Sev7een/ds-api-usage</id>
-    <link href="https://github.com/Sev7een/ds-api-usage"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DeepSeek API balance and 24-hour usage dashboard in Settings, with estimated spend, token counts, request counts, and an hourly timeline.</summary>
   </entry>
 </feed>

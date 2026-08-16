@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 292,
+ "count": 295,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1105,6 +1105,19 @@
    "added": "2026-08-15"
   },
   {
+   "name": "dsh-msgrail",
+   "owner": "futongxu9-maker",
+   "url": "https://github.com/futongxu9-maker/dsh-msgrail",
+   "category": "session",
+   "description": {
+    "zh": "对话右缘消息轨道：每条用户消息一个品牌色圆点，悬停预览、点击跳转、自动加载未加载历史，纯插件零宿主侵入。",
+    "en": "Message-index rail at the conversation's right edge: one brand-colored dot per user message, hover to preview, click to jump, auto-loads older history; pure plugin with no host patching."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-msgrail",
+   "added": "2026-08-16"
+  },
+  {
    "name": "distill",
    "owner": "LoserFox",
    "url": "https://github.com/LoserFox/distill",
@@ -1285,6 +1298,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-shared-memory",
+   "owner": "futongxu9-maker",
+   "url": "https://github.com/futongxu9-maker/dsh-shared-memory",
+   "category": "memory",
+   "description": {
+    "zh": "跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。",
+    "en": "Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style)."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-shared-memory",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-plugin-net-access",
@@ -2260,6 +2286,19 @@
    "npm": "dsh-plugin-grok2api-media-tool",
    "install": "dsh plugin --profile web add dsh-plugin-grok2api-media-tool",
    "added": "2026-08-15"
+  },
+  {
+   "name": "dsh-path-reveal",
+   "owner": "futongxu9-maker",
+   "url": "https://github.com/futongxu9-maker/dsh-path-reveal",
+   "category": "tools",
+   "description": {
+    "zh": "点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。",
+    "en": "Click any absolute Windows path in DSH messages to reveal it in Explorer (select the file or open the folder)."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-path-reveal",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-llm-inspector",

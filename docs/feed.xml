@@ -13,6 +13,27 @@
     <summary>上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。</summary>
   </entry>
   <entry>
+    <title>futongxu9-maker/dsh-msgrail</title>
+    <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
+    <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>对话右缘消息轨道：每条用户消息一个品牌色圆点，悬停预览、点击跳转、自动加载未加载历史，纯插件零宿主侵入。</summary>
+  </entry>
+  <entry>
+    <title>futongxu9-maker/dsh-shared-memory</title>
+    <id>https://github.com/futongxu9-maker/dsh-shared-memory</id>
+    <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。</summary>
+  </entry>
+  <entry>
+    <title>futongxu9-maker/dsh-path-reveal</title>
+    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
+    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-llm-inspector</title>
     <id>https://github.com/cdxiaodong/dsh-llm-inspector</id>
     <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
@@ -193,26 +214,5 @@
     <link href="https://github.com/v587d/dsh-opencode-go-usage"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>在输入框上方 dock 显示 OpenCode Go 订阅用量（5h 滚动/每周/每月窗口与重置倒计时），内置凭据编辑器。</summary>
-  </entry>
-  <entry>
-    <title>Han-1413141/dsh-cost-meter</title>
-    <id>https://github.com/Han-1413141/dsh-cost-meter</id>
-    <link href="https://github.com/Han-1413141/dsh-cost-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>会话与当日 API 费用统计、预算图框（已用%）、官方余额、历史看板，支持峰谷计价与官方价格一键同步。</summary>
-  </entry>
-  <entry>
-    <title>fishxcode/dsh-plugin-deepseek-balance</title>
-    <id>https://github.com/fishxcode/dsh-plugin-deepseek-balance</id>
-    <link href="https://github.com/fishxcode/dsh-plugin-deepseek-balance"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>在 DSH Web 设置中展示 DeepSeek API 余额、余额趋势与每日用量图表。</summary>
-  </entry>
-  <entry>
-    <title>Sev7een/ds-api-usage</title>
-    <id>https://github.com/Sev7een/ds-api-usage</id>
-    <link href="https://github.com/Sev7een/ds-api-usage"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>在设置页展示 DeepSeek API 余额与最近 24 小时用量，包括估算消费、Token、请求次数和按小时时间线。</summary>
   </entry>
 </feed>
