@@ -27,6 +27,13 @@
     <summary>Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.</summary>
   </entry>
   <entry>
+    <title>cdxiaodong/dsh-island</title>
+    <id>https://github.com/cdxiaodong/dsh-island</id>
+    <link href="https://github.com/cdxiaodong/dsh-island"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-guardian</title>
     <id>https://github.com/cdxiaodong/dsh-guardian</id>
     <link href="https://github.com/cdxiaodong/dsh-guardian"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Sev7een/ds-api-usage"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DeepSeek API balance and 24-hour usage dashboard in Settings, with estimated spend, token counts, request counts, and an hourly timeline.</summary>
-  </entry>
-  <entry>
-    <title>nonewind/dsh-spend</title>
-    <id>https://github.com/nonewind/dsh-spend</id>
-    <link href="https://github.com/nonewind/dsh-spend"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Token usage and estimated spend for the dsh web UI: floating panel with per-model, per-day, and per-session stats.</summary>
   </entry>
 </feed>
