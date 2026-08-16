@@ -13,6 +13,13 @@
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
   </entry>
   <entry>
+    <title>940842546/dsh-permissions</title>
+    <id>https://github.com/940842546/dsh-permissions</id>
+    <link href="https://github.com/940842546/dsh-permissions"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.</summary>
+  </entry>
+  <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
     <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
     <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/omdsh-dev/DSH-better-sidebar"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.</summary>
-  </entry>
-  <entry>
-    <title>Han-1413141/dsh-sticky-disclosure</title>
-    <id>https://github.com/Han-1413141/dsh-sticky-disclosure</id>
-    <link href="https://github.com/Han-1413141/dsh-sticky-disclosure"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>One-click collapse of every expanded section (Think rows, tool cards) with a live-count pill and a customizable hotkey.</summary>
   </entry>
 </feed>

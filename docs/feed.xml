@@ -13,6 +13,13 @@
     <summary>上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。</summary>
   </entry>
   <entry>
+    <title>940842546/dsh-permissions</title>
+    <id>https://github.com/940842546/dsh-permissions</id>
+    <link href="https://github.com/940842546/dsh-permissions"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Claude Code 风格权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问、不可豁免）、workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml。</summary>
+  </entry>
+  <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
     <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
     <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/omdsh-dev/DSH-better-sidebar"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>侧边栏完整工作台：内置文件渲染编辑、终端、Git 与子代理，支持三方插件注册新 Tab。</summary>
-  </entry>
-  <entry>
-    <title>Han-1413141/dsh-sticky-disclosure</title>
-    <id>https://github.com/Han-1413141/dsh-sticky-disclosure</id>
-    <link href="https://github.com/Han-1413141/dsh-sticky-disclosure"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>一键收起会话中所有展开的区块（Think、工具卡等），常驻计数按钮 + 自定义快捷键。</summary>
   </entry>
 </feed>
