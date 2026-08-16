@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-16T00:00:00Z</updated>
   <entry>
+    <title>lak321/dsh-filetree</title>
+    <id>https://github.com/lak321/dsh-filetree</id>
+    <link href="https://github.com/lak321/dsh-filetree"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>工程文件浏览器：会话视图文件页签，目录树 + VSCode 风格编辑器（C 语法高亮/行号/自动缩进/状态栏），跟随当前工作区。</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
@@ -25,6 +32,13 @@
     <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。</summary>
+  </entry>
+  <entry>
+    <title>gloryxpnv/dsh-tool-vision</title>
+    <id>https://github.com/gloryxpnv/dsh-tool-vision</id>
+    <link href="https://github.com/gloryxpnv/dsh-tool-vision"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。</summary>
   </entry>
   <entry>
     <title>futongxu9-maker/dsh-path-reveal</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/asukasec/dsh-message-preview"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>右侧用户消息导航条，根据消息数量与可用高度自适应排布导航块，并支持悬停预览、键盘操作与点击跳转。</summary>
-  </entry>
-  <entry>
-    <title>l541402398/dsh-file-uploads</title>
-    <id>https://github.com/l541402398/dsh-file-uploads</id>
-    <link href="https://github.com/l541402398/dsh-file-uploads"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>从 Web 输入框上传任意本地文件，以待发送卡片展示，并在设置中管理已存文件。</summary>
-  </entry>
-  <entry>
-    <title>Ghost011118/dsh-balance-meter</title>
-    <id>https://github.com/Ghost011118/dsh-balance-meter</id>
-    <link href="https://github.com/Ghost011118/dsh-balance-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>输入框 dock 显示 DeepSeek 账户余额与会话花费，自动拉取官方定价，支持高峰/低谷计价。</summary>
   </entry>
 </feed>

@@ -19,7 +19,7 @@
 
 DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out its core parts, or assemble something entirely different.
 
-**296** plugins · [PRs welcome](#contributing)
+**298** plugins · [PRs welcome](#contributing)
 
 This project actively supports and acknowledges the [LINUX DO](https://linux.do) community, a welcoming space for tech enthusiasts.
 
@@ -55,6 +55,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil design preview and editing plugin.
 - [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) - In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering.
 - [ccq1/dsh-side-panel](https://github.com/ccq1/dsh-side-panel) - Side panel with file browser, terminal, and Git review for quick file previews.
+- [lak321/dsh-filetree](https://github.com/lak321/dsh-filetree) - Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace.
 - [dingyi222666/dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) - A "focus chat" minimal view that shows only final outputs.
 - [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Interactive UI components rendered inline in replies: layout, charts, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model.
 - [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) - Select text → annotate → send with your message; replies map back to each annotation.
@@ -160,6 +161,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 
 
 ### Tools & Capabilities
+- [gloryxpnv/dsh-tool-vision](https://github.com/gloryxpnv/dsh-tool-vision) - Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine.
 - [Gumiho12345/dsh-plugin-net-access](https://github.com/Gumiho12345/dsh-plugin-net-access) - Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows).
 - [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) — Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin.
 - [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export.
@@ -248,10 +250,10 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [creght-dev/skills](https://github.com/creght-dev/skills) - Skills for building websites on the Creght platform: CLI pull/push sync, page and component conventions, CMS, forms, auth, SEO, publishing and version rollback.
 - [leechen298/Code2Skill](https://github.com/leechen298/Code2Skill) - Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research.
-- [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) - Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.
 
 ### Workflow & Automation
 
+- [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) - Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.
 - [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) - UltraCode-style multi-agent orchestration: a generatable, savable, governable, observable, resumable workflow layer.
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - AgentTeams multi-agent teams.
 - [titanwings/dsh-automation](https://github.com/titanwings/dsh-automation) - Scheduled coding runs in fresh agent sessions with auditable history.

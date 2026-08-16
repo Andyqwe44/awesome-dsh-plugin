@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-16T00:00:00Z</updated>
   <entry>
+    <title>lak321/dsh-filetree</title>
+    <id>https://github.com/lak321/dsh-filetree</id>
+    <link href="https://github.com/lak321/dsh-filetree"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace.</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
@@ -25,6 +32,13 @@
     <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).</summary>
+  </entry>
+  <entry>
+    <title>gloryxpnv/dsh-tool-vision</title>
+    <id>https://github.com/gloryxpnv/dsh-tool-vision</id>
+    <link href="https://github.com/gloryxpnv/dsh-tool-vision"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine.</summary>
   </entry>
   <entry>
     <title>futongxu9-maker/dsh-path-reveal</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/asukasec/dsh-message-preview"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Right-edge user-message navigator with an adaptive block layout that fits the available height, plus hover previews, keyboard controls, and click-to-jump navigation.</summary>
-  </entry>
-  <entry>
-    <title>l541402398/dsh-file-uploads</title>
-    <id>https://github.com/l541402398/dsh-file-uploads</id>
-    <link href="https://github.com/l541402398/dsh-file-uploads"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Upload arbitrary local files from the Web composer, show pending cards, and manage stored files in Settings.</summary>
-  </entry>
-  <entry>
-    <title>Ghost011118/dsh-balance-meter</title>
-    <id>https://github.com/Ghost011118/dsh-balance-meter</id>
-    <link href="https://github.com/Ghost011118/dsh-balance-meter"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>DeepSeek account balance and session cost in the composer dock, with auto-fetched official pricing and peak/off-peak support.</summary>
   </entry>
 </feed>

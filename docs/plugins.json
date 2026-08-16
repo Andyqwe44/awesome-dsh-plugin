@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 296,
+ "count": 298,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -167,6 +167,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:ccq1/dsh-side-panel",
    "added": "2026-08-13"
+  },
+  {
+   "name": "dsh-filetree",
+   "owner": "lak321",
+   "url": "https://github.com/lak321/dsh-filetree",
+   "category": "ui",
+   "description": {
+    "zh": "工程文件浏览器：会话视图文件页签，目录树 + VSCode 风格编辑器（C 语法高亮/行号/自动缩进/状态栏），跟随当前工作区。",
+    "en": "Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:lak321/dsh-filetree",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-focus-chat",
@@ -1310,6 +1323,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-shared-memory",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-tool-vision",
+   "owner": "gloryxpnv",
+   "url": "https://github.com/gloryxpnv/dsh-tool-vision",
+   "category": "tools",
+   "description": {
+    "zh": "为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。",
+    "en": "Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:gloryxpnv/dsh-tool-vision",
    "added": "2026-08-16"
   },
   {
