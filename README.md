@@ -281,6 +281,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) — 飞书通知（会话结束/等待输入）。
 - [SeverusZh/dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知，零依赖。
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) — 通过 opencode attach 获得丝滑 TUI。
+- [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
 
 ### 🔌 模型与账号接入
 
