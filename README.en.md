@@ -23,6 +23,21 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 This project actively supports and acknowledges the [LINUX DO](https://linux.do) community, a welcoming space for tech enthusiasts.
 
+<p align="center">
+  <b>🔧 Plugin manager</b>: <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a> — search and install plugins from this curated list right inside DSH (<code>search_dsh_plugins</code> / <code>install_dsh_plugin</code> tools plus a plugin-market panel in Web settings).
+  <br>
+  Use the companion plugin manager to simplify installing plugins from this list.
+</p>
+
+<details>
+<summary align="center">📸 Click to view screenshot</summary>
+
+<p align="center">
+  <img src="images/dsh-plugin-registry.png" alt="dsh-plugin-registry" width="600">
+</p>
+
+</details>
+
 ## Contents
 
 - [Plugins](#plugins)
