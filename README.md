@@ -267,6 +267,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [creght-dev/skills](https://github.com/creght-dev/skills) — Creght 平台建站技能包：CLI 拉取/推送同步、页面与组件规范、CMS、表单、Auth、SEO、发布与版本回滚。
 - [leechen298/Code2Skill](https://github.com/leechen298/Code2Skill) — 从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发。
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。
+- [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) — Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DeepSeek Harness 插件：改编自 mattpocock/skills（MIT）。
 
 ### 🔁 工作流与自动化
 
