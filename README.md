@@ -19,16 +19,8 @@
 
 DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent（提供 Web 与 headless 两种形式），底层又是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI、乃至 Agent Loop 本身都是插件。插件既可以扩展官方 Coding Agent，也可以替换其核心部件，甚至组装出完全不同的东西。
 
-**298** 个插件 · 欢迎 [PR](#贡献)
-
-本项目积极支持并感谢 [LINUX DO](https://linux.do) 社区——一个欢迎技术爱好者的温馨空间。
-
 <p align="center">
-  <b>🔧 插件管理工具 · <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a></b><br>
-  在会话内检索并安装本精选列表的插件（<code>search_dsh_plugins</code> / <code>install_dsh_plugin</code> 工具 + Web 设置页「插件市场」面板）。
-</p>
-<p align="center">
-  <small>推荐使用配套的插件管理工具插件来简化安装过程。</small>
+  <b>🔧 <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a></b> —— 会话内检索并一键安装本列表插件，Web 设置页带「插件市场」面板。
 </p>
 
 <details>
@@ -39,6 +31,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 </p>
 
 </details>
+
+**298** 个插件 · 欢迎 [PR](#贡献)
 
 ## 目录
 
@@ -427,3 +421,5 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 ## 免责声明
 
 本项目是社区维护的索引。插件由各自作者开发与维护，收录不构成背书，亦不对任何插件的安全性、质量或维护状态作出保证。安装插件即在你的机器上运行第三方代码——请自行审阅源码、风险自担。本项目与 DeepSeek 无隶属关系。
+
+本项目积极支持并感谢 [LINUX DO](https://linux.do) 社区——一个欢迎技术爱好者的温馨空间。

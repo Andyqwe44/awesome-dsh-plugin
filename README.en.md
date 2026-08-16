@@ -19,16 +19,8 @@
 
 DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out its core parts, or assemble something entirely different.
 
-**298** plugins · [PRs welcome](#contributing)
-
-This project actively supports and acknowledges the [LINUX DO](https://linux.do) community, a welcoming space for tech enthusiasts.
-
 <p align="center">
-  <b>🔧 Plugin manager · <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a></b><br>
-  Search and install plugins from this curated list right inside DSH (<code>search_dsh_plugins</code> / <code>install_dsh_plugin</code> tools plus a plugin-market panel in Web settings).
-</p>
-<p align="center">
-  <small>Use the companion plugin manager to simplify installing plugins from this list.</small>
+  <b>🔧 <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a></b> — search and install plugins from this curated list right inside DSH, with a plugin-market panel in Web settings.
 </p>
 
 <details>
@@ -39,6 +31,8 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 </p>
 
 </details>
+
+**298** plugins · [PRs welcome](#contributing)
 
 ## Contents
 
@@ -427,3 +421,5 @@ Listed here? Show it off:
 ## Disclaimer
 
 This is a community-maintained index. Plugins are developed and maintained by their respective authors; listing here is not an endorsement, and no guarantees are made about any plugin's safety, quality, or maintenance. Installing a plugin runs third-party code on your machine — review the source and install at your own risk. This project is not affiliated with DeepSeek.
+
+This project actively supports and acknowledges the [LINUX DO](https://linux.do) community, a welcoming space for tech enthusiasts.
