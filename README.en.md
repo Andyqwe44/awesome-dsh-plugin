@@ -97,7 +97,6 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [Jolly-J/dsh-deepseek-billing](https://github.com/Jolly-J/dsh-deepseek-billing) - DeepSeek account balance and per-session cost card in the sidebar foot.
 - [AKIRACOD/dsh-drag-and-drop](https://github.com/AKIRACOD/dsh-drag-and-drop) - File-drag fork: drop documents as removable chips above the composer, send without typing.
 - [context-vista](https://github.com/GooodWei/context-vista) - Right-side floating panel with a live donut chart of context token usage and cost.
-- [dsh-context](https://github.com/bowenliang123/dsh-context) - Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
 - [dsh-paste-input](https://github.com/dsh-external/dsh-paste-input) - Ctrl+V paste files / drag & drop / picker.
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) - RMB/USD token billing with official-policy pricing and a per-message cost ledger.
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - Differential-rendering TUI front end with streaming markdown and tool cards.
@@ -141,6 +140,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 
 ### Memory
 
+- [dsh-context](https://github.com/bowenliang123/dsh-context) - Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
 - [LoserFox/distill](https://github.com/LoserFox/distill) - Automatic conversation distillation: background subagent reflection + skill create/update.
 - [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces).
 - [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) - Cross-session memory: SQLite with a human-editable Markdown mirror, background consolidation (dedup, merge, conflict resolution), and six memory tools.
