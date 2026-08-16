@@ -2,8 +2,8 @@
  "name": "awesome-dsh-plugin",
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
- "updated": "2026-08-15",
- "count": 287,
+ "updated": "2026-08-16",
+ "count": 288,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -687,6 +687,19 @@
    "npm": "context-vista",
    "install": "dsh plugin --profile web add context-vista",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-context",
+   "owner": "bowenliang123",
+   "url": "https://github.com/bowenliang123/dsh-context",
+   "category": "ui",
+   "description": {
+    "zh": "上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。",
+    "en": "Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats."
+   },
+   "npm": "dsh-context",
+   "install": "dsh plugin --profile web add dsh-context",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-paste-input",

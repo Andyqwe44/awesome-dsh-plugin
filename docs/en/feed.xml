@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/en/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/en/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
-  <updated>2026-08-15T00:00:00Z</updated>
+  <updated>2026-08-16T00:00:00Z</updated>
+  <entry>
+    <title>bowenliang123/dsh-context</title>
+    <id>https://github.com/bowenliang123/dsh-context</id>
+    <link href="https://github.com/bowenliang123/dsh-context"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
+  </entry>
   <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
     <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Han-1413141/dsh-sticky-disclosure"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>One-click collapse of every expanded section (Think rows, tool cards) with a live-count pill and a customizable hotkey.</summary>
-  </entry>
-  <entry>
-    <title>Meredith2328/dsh-sticky-note</title>
-    <id>https://github.com/Meredith2328/dsh-sticky-note</id>
-    <link href="https://github.com/Meredith2328/dsh-sticky-note"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Quick sticky notes on the composer toolbar: jot ideas or TODOs, auto-saved as Markdown, one click to send into the chat.</summary>
   </entry>
 </feed>
