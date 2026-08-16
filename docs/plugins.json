@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 289,
+ "count": 291,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2262,6 +2262,19 @@
    "added": "2026-08-15"
   },
   {
+   "name": "dsh-llm-inspector",
+   "owner": "cdxiaodong",
+   "url": "https://github.com/cdxiaodong/dsh-llm-inspector",
+   "category": "tools",
+   "description": {
+    "zh": "统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。",
+    "en": "Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:cdxiaodong/dsh-llm-inspector",
+   "added": "2026-08-16"
+  },
+  {
    "name": "skills",
    "owner": "creght-dev",
    "url": "https://github.com/creght-dev/skills",
@@ -3547,6 +3560,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:15828148/dsh-portable-launcher",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-guardian",
+   "owner": "cdxiaodong",
+   "url": "https://github.com/cdxiaodong/dsh-guardian",
+   "category": "dev",
+   "description": {
+    "zh": "Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。",
+    "en": "Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:cdxiaodong/dsh-guardian",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-ads",

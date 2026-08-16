@@ -13,11 +13,25 @@
     <summary>上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。</summary>
   </entry>
   <entry>
+    <title>cdxiaodong/dsh-llm-inspector</title>
+    <id>https://github.com/cdxiaodong/dsh-llm-inspector</id>
+    <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。</summary>
+  </entry>
+  <entry>
     <title>940842546/dsh-permissions</title>
     <id>https://github.com/940842546/dsh-permissions</id>
     <link href="https://github.com/940842546/dsh-permissions"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Claude Code 风格权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问、不可豁免）、workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml。</summary>
+  </entry>
+  <entry>
+    <title>cdxiaodong/dsh-guardian</title>
+    <id>https://github.com/cdxiaodong/dsh-guardian</id>
+    <link href="https://github.com/cdxiaodong/dsh-guardian"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。</summary>
   </entry>
   <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/nonewind/dsh-spend"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DSH Web 用量与费用统计插件：右下角悬浮窗，按模型/按天/按会话多维聚合与预计花费。</summary>
-  </entry>
-  <entry>
-    <title>ccch1mneyyy/dsh-TUI</title>
-    <id>https://github.com/ccch1mneyyy/dsh-TUI</id>
-    <link href="https://github.com/ccch1mneyyy/dsh-TUI"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Claude Code 风格全屏终端 UI：像素鲸鱼顶栏、实时工作状态行、思考流式展开。</summary>
-  </entry>
-  <entry>
-    <title>omdsh-dev/DSH-better-sidebar</title>
-    <id>https://github.com/omdsh-dev/DSH-better-sidebar</id>
-    <link href="https://github.com/omdsh-dev/DSH-better-sidebar"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>侧边栏完整工作台：内置文件渲染编辑、终端、Git 与子代理，支持三方插件注册新 Tab。</summary>
   </entry>
 </feed>

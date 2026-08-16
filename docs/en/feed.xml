@@ -13,11 +13,25 @@
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
   </entry>
   <entry>
+    <title>cdxiaodong/dsh-llm-inspector</title>
+    <id>https://github.com/cdxiaodong/dsh-llm-inspector</id>
+    <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis.</summary>
+  </entry>
+  <entry>
     <title>940842546/dsh-permissions</title>
     <id>https://github.com/940842546/dsh-permissions</id>
     <link href="https://github.com/940842546/dsh-permissions"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.</summary>
+  </entry>
+  <entry>
+    <title>cdxiaodong/dsh-guardian</title>
+    <id>https://github.com/cdxiaodong/dsh-guardian</id>
+    <link href="https://github.com/cdxiaodong/dsh-guardian"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.</summary>
   </entry>
   <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/nonewind/dsh-spend"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>Token usage and estimated spend for the dsh web UI: floating panel with per-model, per-day, and per-session stats.</summary>
-  </entry>
-  <entry>
-    <title>ccch1mneyyy/dsh-TUI</title>
-    <id>https://github.com/ccch1mneyyy/dsh-TUI</id>
-    <link href="https://github.com/ccch1mneyyy/dsh-TUI"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion.</summary>
-  </entry>
-  <entry>
-    <title>omdsh-dev/DSH-better-sidebar</title>
-    <id>https://github.com/omdsh-dev/DSH-better-sidebar</id>
-    <link href="https://github.com/omdsh-dev/DSH-better-sidebar"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.</summary>
   </entry>
 </feed>
