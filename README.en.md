@@ -20,7 +20,7 @@
 DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out its core parts, or assemble something entirely different.
 
 <p align="center">
-  <b>🔧 <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a></b> — search and install plugins from this curated list right inside DSH, with a plugin-market panel in Web settings.
+  Recommended: <a href="https://github.com/beancookie/dsh-plugin-registry">dsh-plugin-registry</a> — search and install plugins from this curated list right inside DSH, with a plugin-market panel in Web settings.
 </p>
 
 <details>
