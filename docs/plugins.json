@@ -2,8 +2,8 @@
  "name": "awesome-dsh-plugin",
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
- "updated": "2026-08-15",
- "count": 287,
+ "updated": "2026-08-16",
+ "count": 292,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -687,6 +687,19 @@
    "npm": "context-vista",
    "install": "dsh plugin --profile web add context-vista",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-context",
+   "owner": "bowenliang123",
+   "url": "https://github.com/bowenliang123/dsh-context",
+   "category": "ui",
+   "description": {
+    "zh": "上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。",
+    "en": "Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats."
+   },
+   "npm": "dsh-context",
+   "install": "dsh plugin --profile web add dsh-context",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-paste-input",
@@ -2249,6 +2262,19 @@
    "added": "2026-08-15"
   },
   {
+   "name": "dsh-llm-inspector",
+   "owner": "cdxiaodong",
+   "url": "https://github.com/cdxiaodong/dsh-llm-inspector",
+   "category": "tools",
+   "description": {
+    "zh": "统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。",
+    "en": "Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:cdxiaodong/dsh-llm-inspector",
+   "added": "2026-08-16"
+  },
+  {
    "name": "skills",
    "owner": "creght-dev",
    "url": "https://github.com/creght-dev/skills",
@@ -2535,6 +2561,19 @@
    "added": "2026-08-14"
   },
   {
+   "name": "dsh-permissions",
+   "owner": "940842546",
+   "url": "https://github.com/940842546/dsh-permissions",
+   "category": "workflow",
+   "description": {
+    "zh": "Claude Code 风格权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问、不可豁免）、workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml。",
+    "en": "Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:940842546/dsh-permissions",
+   "added": "2026-08-16"
+  },
+  {
    "name": "dsh-model-failover",
    "owner": "Letter2025",
    "url": "https://github.com/Letter2025/dsh-model-failover",
@@ -2741,6 +2780,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:dsh-external/dsh-opencode-server",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-island",
+   "owner": "cdxiaodong",
+   "url": "https://github.com/cdxiaodong/dsh-island",
+   "category": "notify",
+   "description": {
+    "zh": "通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。",
+    "en": "Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:cdxiaodong/dsh-island",
+   "added": "2026-08-16"
   },
   {
    "name": "llm-adaptive",
@@ -3521,6 +3573,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:15828148/dsh-portable-launcher",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-guardian",
+   "owner": "cdxiaodong",
+   "url": "https://github.com/cdxiaodong/dsh-guardian",
+   "category": "dev",
+   "description": {
+    "zh": "Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。",
+    "en": "Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:cdxiaodong/dsh-guardian",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-ads",
