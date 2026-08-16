@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 295,
+ "count": 296,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3885,6 +3885,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:dsh-external/dsh-ui-whale",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-whale-galgame",
+   "owner": "JAdpp",
+   "url": "https://github.com/JAdpp/dsh-whale-galgame",
+   "category": "fun",
+   "description": {
+    "zh": "多角色 Galgame 对话界面：角色与回复模型可独立切换，分角色保存好感度、记忆、对话历史与 CG 图鉴，并根据 Harness 跨会话任务事件做出角色回应。",
+    "en": "Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:JAdpp/dsh-whale-galgame",
+   "added": "2026-08-16"
   }
  ]
 }

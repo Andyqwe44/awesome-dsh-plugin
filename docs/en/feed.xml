@@ -62,6 +62,13 @@
     <summary>Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.</summary>
   </entry>
   <entry>
+    <title>JAdpp/dsh-whale-galgame</title>
+    <id>https://github.com/JAdpp/dsh-whale-galgame</id>
+    <link href="https://github.com/JAdpp/dsh-whale-galgame"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions.</summary>
+  </entry>
+  <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
     <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
     <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Ghost011118/dsh-balance-meter"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>DeepSeek account balance and session cost in the composer dock, with auto-fetched official pricing and peak/off-peak support.</summary>
-  </entry>
-  <entry>
-    <title>v587d/dsh-opencode-go-usage</title>
-    <id>https://github.com/v587d/dsh-opencode-go-usage</id>
-    <link href="https://github.com/v587d/dsh-opencode-go-usage"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>OpenCode Go subscription usage (rolling/weekly/monthly windows with reset countdowns) in the composer dock, with a built-in credential editor.</summary>
   </entry>
 </feed>

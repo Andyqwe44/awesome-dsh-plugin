@@ -62,6 +62,13 @@
     <summary>Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。</summary>
   </entry>
   <entry>
+    <title>JAdpp/dsh-whale-galgame</title>
+    <id>https://github.com/JAdpp/dsh-whale-galgame</id>
+    <link href="https://github.com/JAdpp/dsh-whale-galgame"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>多角色 Galgame 对话界面：角色与回复模型可独立切换，分角色保存好感度、记忆、对话历史与 CG 图鉴，并根据 Harness 跨会话任务事件做出角色回应。</summary>
+  </entry>
+  <entry>
     <title>pk7j7sqryy-ops/dsh-token-pet</title>
     <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
     <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Ghost011118/dsh-balance-meter"/>
     <updated>2026-08-14T00:00:00Z</updated>
     <summary>输入框 dock 显示 DeepSeek 账户余额与会话花费，自动拉取官方定价，支持高峰/低谷计价。</summary>
-  </entry>
-  <entry>
-    <title>v587d/dsh-opencode-go-usage</title>
-    <id>https://github.com/v587d/dsh-opencode-go-usage</id>
-    <link href="https://github.com/v587d/dsh-opencode-go-usage"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>在输入框上方 dock 显示 OpenCode Go 订阅用量（5h 滚动/每周/每月窗口与重置倒计时），内置凭据编辑器。</summary>
   </entry>
 </feed>
