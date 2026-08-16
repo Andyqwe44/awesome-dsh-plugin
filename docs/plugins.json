@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 298,
+ "count": 301,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1326,6 +1326,19 @@
    "added": "2026-08-16"
   },
   {
+   "name": "dsh-repo-setup",
+   "owner": "gongyijie85",
+   "url": "https://github.com/gongyijie85/dsh-repo-setup",
+   "category": "tools",
+   "description": {
+    "zh": "只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出技能插件、MCP 服务器与卫生文件的安装建议（claude-code-setup 的 DSH 对应）。",
+    "en": "Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart)."
+   },
+   "npm": "dsh-repo-setup",
+   "install": "dsh plugin --profile web add dsh-repo-setup",
+   "added": "2026-08-16"
+  },
+  {
    "name": "dsh-tool-vision",
    "owner": "gloryxpnv",
    "url": "https://github.com/gloryxpnv/dsh-tool-vision",
@@ -2340,6 +2353,19 @@
    "added": "2026-08-16"
   },
   {
+   "name": "dsh-ponytail",
+   "owner": "gongyijie85",
+   "url": "https://github.com/gongyijie85/dsh-ponytail",
+   "category": "skill",
+   "description": {
+    "zh": "最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。",
+    "en": "Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT)."
+   },
+   "npm": "dsh-ponytail-skills",
+   "install": "dsh plugin --profile web add dsh-ponytail-skills",
+   "added": "2026-08-16"
+  },
+  {
    "name": "skills",
    "owner": "creght-dev",
    "url": "https://github.com/creght-dev/skills",
@@ -2377,6 +2403,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:dhicoc/dsh-reverse-skill",
    "added": "2026-08-15"
+  },
+  {
+   "name": "mattpocock-skills-dsh",
+   "owner": "gongyijie85",
+   "url": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+   "category": "skill",
+   "description": {
+    "zh": "Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DeepSeek Harness 插件：改编自 mattpocock/skills（MIT）。",
+    "en": "Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT)."
+   },
+   "npm": "mattpocock-skills-dsh",
+   "install": "dsh plugin --profile web add mattpocock-skills-dsh",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-usage-billing",

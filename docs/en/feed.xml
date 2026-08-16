@@ -34,6 +34,13 @@
     <summary>Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).</summary>
   </entry>
   <entry>
+    <title>gongyijie85/dsh-repo-setup</title>
+    <id>https://github.com/gongyijie85/dsh-repo-setup</id>
+    <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart).</summary>
+  </entry>
+  <entry>
     <title>gloryxpnv/dsh-tool-vision</title>
     <id>https://github.com/gloryxpnv/dsh-tool-vision</id>
     <link href="https://github.com/gloryxpnv/dsh-tool-vision"/>
@@ -53,6 +60,20 @@
     <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis.</summary>
+  </entry>
+  <entry>
+    <title>gongyijie85/dsh-ponytail</title>
+    <id>https://github.com/gongyijie85/dsh-ponytail</id>
+    <link href="https://github.com/gongyijie85/dsh-ponytail"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).</summary>
+  </entry>
+  <entry>
+    <title>gongyijie85/mattpocock-skills-dsh</title>
+    <id>https://github.com/gongyijie85/mattpocock-skills-dsh</id>
+    <link href="https://github.com/gongyijie85/mattpocock-skills-dsh"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT).</summary>
   </entry>
   <entry>
     <title>940842546/dsh-permissions</title>
@@ -193,26 +214,5 @@
     <link href="https://github.com/CH4ACKO3/dsh-harmony"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload.</summary>
-  </entry>
-  <entry>
-    <title>zealot00/dsh-pet</title>
-    <id>https://github.com/zealot00/dsh-pet</id>
-    <link href="https://github.com/zealot00/dsh-pet"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Desktop pet for the DSH Web UI: sprite-sheet animation, agent state linkage, drag, alarm (daily/one-shot) and pomodoro widgets, skin picker with preview.</summary>
-  </entry>
-  <entry>
-    <title>openma-ai/deepseek-harness-tui</title>
-    <id>https://github.com/openma-ai/deepseek-harness-tui</id>
-    <link href="https://github.com/openma-ai/deepseek-harness-tui"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>A Rust/ratatui terminal client that speaks the DSH SDK JSON-RPC protocol directly and runs standalone or as a profile bundle.</summary>
-  </entry>
-  <entry>
-    <title>asukasec/dsh-message-preview</title>
-    <id>https://github.com/asukasec/dsh-message-preview</id>
-    <link href="https://github.com/asukasec/dsh-message-preview"/>
-    <updated>2026-08-14T00:00:00Z</updated>
-    <summary>Right-edge user-message navigator with an adaptive block layout that fits the available height, plus hover previews, keyboard controls, and click-to-jump navigation.</summary>
   </entry>
 </feed>
