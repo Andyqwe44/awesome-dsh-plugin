@@ -372,6 +372,7 @@ This project actively supports and acknowledges the [LINUX DO](https://linux.do)
 - [sunshine-lang/dsh-weather](https://github.com/sunshine-lang/dsh-weather) - Weather tool via Open-Meteo (free, no API key).
 - [sunshine-lang/dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) - PDF toolbox: extract text, metadata and page ranges via pdfjs-dist.
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion that blinks, wags its tail and spouts hearts.
+- [JAdpp/dsh-whale-galgame](https://github.com/JAdpp/dsh-whale-galgame) - Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions.
 
 ## Related
 
